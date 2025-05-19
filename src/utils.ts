@@ -55,8 +55,19 @@ export function writeOutputFile(html: string, filePath: string): void {
 export function generateHTML(content: string): string {
   log(`generating html output with ${content.length} characters`);
   
-  // inline basic styles directly in the html
-  return `<!DOCTYPE html>
+  try {
+    const templatePath = path.join(__dirname, 'templates/tmp_index.html');
+    log(`reading template file from ${templatePath}`);
+    const template = fs.readFileSync(templatePath, 'utf8');
+    
+    // replace the placeholder with the actual content
+    const html = template.replace('<!-- CONTENT_PLACEHOLDER -->', content);
+    log('html generated successfully using template');
+    return html;
+  } catch (error) {
+    console.error(`error generating html from template: ${error}`);
+    // fallback to hardcoded html if template fails
+    return `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -81,34 +92,15 @@ export function generateHTML(content: string): string {
     </nav>
     
     <div id="first-issue" class="section">
-        <h2>issue 01: interview</h2>
-        <div class="container">
-            <!-- first issue content will be placed here -->
-            <p class="placeholder">// first issue placeholder - this will contain an interview</p>
-        </div>
+        <h2>oh well, something didnt work!</h2>
     </div>
-    
-    <div id="second-issue" class="section">
-        <h2>issue 02: unreadeable interview</h2>
-        <div class="container">
-            ${content}
-        </div>
-    </div>
-    
-    <div id="third-issue" class="section">
-        <h2>issue 03: text</h2>
-        <div class="container">
-            <!-- third issue content will be placed here -->
-            <p class="placeholder">// third issue placeholder - here will be text about namegiving</p>
-        </div>
-    </div>
-    
+  
     <footer>
         <div class="footer-container">
-            <p>${new Date().getFullYear()}</p>
             <p>kabk coding y3</p>
         </div>
     </footer>
 </body>
 </html>`;
+  }
 }

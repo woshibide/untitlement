@@ -17,7 +17,7 @@ import {
 } from './utils';
 
 // configuration
-const INPUT_FILE = path.join(__dirname, '../input/kotel_2.txt');
+const INPUT_FILE = path.join(__dirname, '../input/full_ru_interview.txt');
 const OUTPUT_DIR = path.join(__dirname, '../public');
 const OUTPUT_FILE = path.join(OUTPUT_DIR, 'index.html');
 

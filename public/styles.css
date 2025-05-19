@@ -102,13 +102,14 @@ body {
   margin-top: 0;
   font-weight: normal;
   font-size: var(--font-size-heading);
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   margin-bottom: var(--spacing-large);
 }
 
 .container {
   /* max-width: 1200px; */
   margin: 0 auto;
+  text-align: justify;
 }
 
 /* placeholders */
@@ -123,14 +124,15 @@ body {
 /* second issue styles */
 #second-issue span {
   display: inline-block;
-  margin-right: var(--spacing-small);
-  margin-bottom: var(--spacing-small);
+  /* margin-right: var(--spacing-small); */
+  /* margin-bottom: var(--spacing-small); */
   transition: all 0.2s ease;
 }
 
 #second-issue span:hover {
   transform: scale(1.05);
-  background-color: #f0f0f0;
+  background-color: black;
+  color: #f0f0f0;f
 }
 
 .effect-upside-down {
