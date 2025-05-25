@@ -3,7 +3,7 @@
   --color-background: #f5f5f5;
   --color-container: white;
   --color-shadow: rgba(0, 0, 0, 0.1);
-  --color-text: #333;
+  --color-text: #151515;
   --color-accent: #121212;
   --color-nav: #111111;
   --color-nav-text: #f5f5f5;
@@ -44,6 +44,7 @@ body {
   color: var(--color-text);
   border: var(--border-width) solid var(--color-border); 
   box-sizing: border-box; /* ensure padding and border are included in the element's total width and height */
+  text-align: justify;
 }
 
 
@@ -51,7 +52,7 @@ body {
   position: sticky;
   top: 0;
   background: none;
-  margin-top: calc(var(--spacing-large) * 3.5);
+  /* margin-top: calc(var(--spacing-large) * 3.5); */
   padding: var(--spacing-medium);
   z-index: 100;
 }
@@ -60,7 +61,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* max-width: 1200px; */
   background: linear-gradient(to bottom, white, transparent);
   transform: translateY(-1rem);
   margin: 0 auto;
@@ -82,16 +82,22 @@ body {
   margin-left: var(--spacing-medium);
 }
 
-.nav-links a {
+a {
   text-decoration: none;
   color: var(--color-text);
+}
+a:hover {
+  text-decoration: underline solid 2px;  
+}
+
+.nav-links a{
   position: relative;
 }
 
-.nav-links a:hover {
-  text-decoration: underline;
-}
 
+#hero {
+  padding: 1rem;
+}
 
 .section {
   padding: var(--spacing-large) var(--spacing-medium);
@@ -100,12 +106,17 @@ body {
   /* border-bottom: 1px solid #000; */
 }
 
-.section h1, .section h2 {
+h1, .section h2 {
+  color: var(--color-text);
   margin-top: 0;
   font-weight: normal;
   font-size: var(--font-size-heading);
   /* text-transform: lowercase; */
   margin-bottom: var(--spacing-large);
+}
+
+h1 {
+  letter-spacing: -1px;
 }
 
 .container {
@@ -165,88 +176,13 @@ body {
 }
 
 
-.interview-container {
-  margin-top: var(--spacing-large);
-}
-
-.interview-intro {
-  margin-bottom: var(--spacing-large);
-  font-style: italic;
-  margin-top: calc(var(--spacing-large) * 7.5);
-  padding-bottom: var(--spacing-medium);
-}
-
-.interview-content {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  column-gap: var(--spacing-medium);
-  row-gap: var(--spacing-large);
-}
-
-.question {
-  border-left: 3px solid var(--color-text);
-  padding-left: var(--spacing-medium);
-  grid-column: span 4;
-}
-
-.answer {
-  margin-left: 0;
-  grid-column: span 8;
-}
-
-.interviewer {
-  font-weight: bold;
-}
-
-.interviewee {
-  margin-top: var(--spacing-small);
-}
 
 
-
-.author-container {
-  margin-top: var(--spacing-large);
-}
-
-.author-intro {
-  margin-bottom: var(--spacing-large);
-  margin-top: calc(var(--spacing-large) * 7.5);
-  padding-bottom: var(--spacing-medium);
-}
-
-.author-info {
-  font-style: italic;
-  color: var(--color-text);
-}
-
-.author-content {
-  max-width: 800px;
-  margin: 0 auto;
-  line-height: 1.7;
-}
-
-.author-content p {
-  margin-bottom: var(--spacing-medium);
-  text-align: justify;
-}
-
-.author-content p:first-letter {
-  float: left;
-  font-size: var(--font-size-base);
-  line-height: 0.7;
-  margin: 0.1em 0.1em 0.1em 0;
-}
-
-
-footer {
-  padding: var(--spacing-large) var(--spacing-medium);
-  /* background-color: var(--color-background); */
-}
 
 .footer-container {
+  padding: 1rem;
   display: flex;
   justify-content: space-between;
-  max-width: 1200px;
   margin: 0 auto;
   font-size: var(--font-size-small);
   color: var(--color-text);
@@ -258,7 +194,6 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--spacing-medium);
-  text-align: left; /* Override justify text for better readability */
 }
 
 #first-issue .container .speech {
@@ -282,15 +217,29 @@ footer {
   margin-bottom: var(--spacing-small);
 }
 
-#first-issue .container .speech:nth-child(even) p:first-child {
+#first-issue .container .speech:nth-child(even) p:first-child, .essay p:first-child {
   text-indent: 0;
 }
 
-#first-issue .container .speech:nth-child(even) p:not(:first-child) {
+#first-issue .container .speech:nth-child(even) p:not(:first-child), .essay p {
   text-indent: 1em;
 }
 
-/* Responsive adjustments for first issue */
+#first-issue h1, #first-issue h3 {
+  padding-block: 2rem;
+  grid-column: 1 / -1;
+}
+#first-issue h3 {
+  font-style: normal;
+  font-weight: 500;
+  padding-right: 8rem;
+}
+
+.essay p {
+  max-width: 75ch;
+  margin-left: auto;
+}
+
 @media (max-width: 768px) {
   #first-issue .container {
     grid-template-columns: 1fr;
