@@ -17,9 +17,16 @@ import {
 } from './utils';
 
 // configuration
-const INPUT_FILE = path.join(__dirname, '../input/full_ru_interview.txt');
 const OUTPUT_DIR = path.join(__dirname, '../public');
-const OUTPUT_FILE = path.join(OUTPUT_DIR, 'index.html');
+const OUTPUT_FILE = path.join(OUTPUT_DIR, 'index.html'); // this will be the consolidated page
+
+// input files for the three issues
+const INPUT_ISSUE_1_FILE = path.join(__dirname, '../input/issue-1.txt');
+const INPUT_ISSUE_2_FILE = path.join(__dirname, '../input/issue-2.txt');
+const INPUT_ISSUE_3_FILE = path.join(__dirname, '../input/issue-3.txt');
+
+// template file
+const TEMPLATE_FILE = path.join(__dirname, 'templates/tmp_index.html');
 
 const MAX_EFFECT_CHANCE = 1;          // at maximum
 const PROGRESSION_THRESHOLD = 0.75;   // when to reach max effect chance
@@ -231,34 +238,61 @@ async function transformText(text: string): Promise<string> {
  * main function that orchestrates the text transformation process
  */
 async function main(): Promise<void> {
-  console.log('starting text transformation...');
+  console.log('starting unified page generation...');
+
+  // 1. read content for issue 1 (raw)
+  console.time('read input (issue 1)');
+  const rawContentIssue1 = readInputFile(INPUT_ISSUE_1_FILE);
+  console.timeEnd('read input (issue 1)');
+  console.log(`read ${rawContentIssue1.length} characters for issue 1 from: ${INPUT_ISSUE_1_FILE}`);
+
+  // 2. read and transform content for issue 2
+  console.time('read input (issue 2)');
+  const inputTextIssue2 = readInputFile(INPUT_ISSUE_2_FILE);
+  console.timeEnd('read input (issue 2)');
+  console.log(`read ${inputTextIssue2.length} characters for issue 2 from: ${INPUT_ISSUE_2_FILE}`);
   
-  // read the input file
-  console.time('read input');
-  const inputText = readInputFile(INPUT_FILE);
-  console.timeEnd('read input');
-  console.log(`read ${inputText.length} characters from input file`);
-  
-  // transform the text
-  console.log('transforming text...');
+  console.log('\ntransforming text for issue 2...');
   log(`available effects (${EFFECTS.length}): ${EFFECTS.map(e => e.name).join(', ')}`);
   log(`effect probability ranges from 0 to ${MAX_EFFECT_CHANCE} (max at ${PROGRESSION_THRESHOLD * 100}% of text)`);
+  console.time('transform (issue 2)');
+  const transformedContentIssue2 = await transformText(inputTextIssue2);
+  console.timeEnd('transform (issue 2)');
+
+  // 3. read content for issue 3 (raw)
+  console.time('read input (issue 3)');
+  const rawContentIssue3 = readInputFile(INPUT_ISSUE_3_FILE);
+  console.timeEnd('read input (issue 3)');
+  console.log(`read ${rawContentIssue3.length} characters for issue 3 from: ${INPUT_ISSUE_3_FILE}`);
+
+  // 4. read html template
+  console.time('read template');
+  const templateHtml = readInputFile(TEMPLATE_FILE);
+  console.timeEnd('read template');
+  console.log(`read template file: ${TEMPLATE_FILE}`);
+
+  // 5. inject content into template
+  console.time('inject content into template');
+  let finalHtml = templateHtml.replace(
+    '<!-- FIRST_ISSUE -->', 
+    rawContentIssue1.replace(/\n/g, ' ')
+  );
+  finalHtml = finalHtml.replace(
+    '<!-- SECOND_ISSUE -->', 
+    transformedContentIssue2
+  );
+  finalHtml = finalHtml.replace(
+    '<!-- THIRD_ISSUE -->', 
+    rawContentIssue3.replace(/\n/g, ' ')
+  );
+  console.timeEnd('inject content into template');
   
-  console.time('transform');
-  const transformedContent = await transformText(inputText);
-  console.timeEnd('transform');
+  // 6. write the final html to the main output file
+  console.time('write final output');
+  writeOutputFile(finalHtml, OUTPUT_FILE);
+  console.timeEnd('write final output');
   
-  // generate html
-  console.time('generate html');
-  const html = generateHTML(transformedContent);
-  console.timeEnd('generate html');
-  
-  // write the output file
-  console.time('write output');
-  writeOutputFile(html, OUTPUT_FILE);
-  console.timeEnd('write output');
-  
-  console.log('transformation complete!');
+  console.log(`\nunified page generation complete! output: ${OUTPUT_FILE}`);
 }
 
 // run the main function

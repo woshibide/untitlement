@@ -23,34 +23,35 @@
   
   /* typography */
   --font-size-small: 0.8rem;
-  --font-size-base: 3rem;
+  --font-size-base: 1rem;
   --font-size-heading: 1.6rem;
 
   font-size: 16px;
 }
 
 
+
 body {
-  /* font-optical-sizing: auto; */
-  /* font-family: "Hina Mincho", serif;
-  font-weight: 400;
-  font-style: normal; */
-  line-height: 95%;
-  font-family: 'Times New Roman', Times, serif;
+  /* line-height: 95%; */
+  font-family: "Golos Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
   font-size: var(--font-size-base);
   margin: 0;
   padding: 0;
   background-color: var(--color-background);
   color: var(--color-text);
+  border: var(--border-width) solid var(--color-border); 
+  box-sizing: border-box; /* ensure padding and border are included in the element's total width and height */
 }
 
-/* navigation */
+
 .main-nav {
   position: sticky;
   top: 0;
   background: none;
-  margin-top: calc(var(--spacing-large) * 2.5);
-  /* border-bottom: 1px solid #000; */
+  margin-top: calc(var(--spacing-large) * 3.5);
   padding: var(--spacing-medium);
   z-index: 100;
 }
@@ -60,9 +61,10 @@ body {
   justify-content: space-between;
   align-items: center;
   /* max-width: 1200px; */
-  transform: translateY(-1.5rem);
+  background: linear-gradient(to bottom, white, transparent);
+  transform: translateY(-1rem);
   margin: 0 auto;
-  font-size: 0.8rem;
+  font-size: var(--font-size-small);
 }
 
 .logo {
@@ -114,9 +116,9 @@ body {
 
 /* placeholders */
 .placeholder {
-  color: #666;
+  color: var(--color-text);
   font-style: italic;
-  border: 1px dashed #ccc;
+  border: 1px dashed var(--color-nav);
   padding: var(--spacing-large);
   text-align: center;
 }
@@ -124,15 +126,13 @@ body {
 /* second issue styles */
 #second-issue span {
   display: inline-block;
-  /* margin-right: var(--spacing-small); */
-  /* margin-bottom: var(--spacing-small); */
   transition: all 0.2s ease;
 }
 
 #second-issue span:hover {
   transform: scale(1.05);
   background-color: black;
-  color: #f0f0f0;f
+  color: var(--color-text);
 }
 
 .effect-upside-down {
@@ -147,7 +147,7 @@ body {
 
 .effect-crazy-case {
   color: var(--color-crazy-case);
-  font-size: 4rem;
+  font-size: var(--font-size-base);
   /* font-weight: bold; */
 }
 
@@ -173,22 +173,25 @@ body {
   margin-bottom: var(--spacing-large);
   font-style: italic;
   margin-top: calc(var(--spacing-large) * 7.5);
-  /* border-bottom: 1px solid #ddd; */
   padding-bottom: var(--spacing-medium);
 }
 
 .interview-content {
   display: grid;
-  grid-gap: var(--spacing-large);
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: var(--spacing-medium);
+  row-gap: var(--spacing-large);
 }
 
 .question {
   border-left: 3px solid var(--color-text);
   padding-left: var(--spacing-medium);
+  grid-column: span 4;
 }
 
 .answer {
-  margin-left: var(--spacing-large);
+  margin-left: 0;
+  grid-column: span 8;
 }
 
 .interviewer {
@@ -208,13 +211,12 @@ body {
 .author-intro {
   margin-bottom: var(--spacing-large);
   margin-top: calc(var(--spacing-large) * 7.5);
-  /* border-bottom: 1px solid #ddd; */
   padding-bottom: var(--spacing-medium);
 }
 
 .author-info {
   font-style: italic;
-  color: #666;
+  color: var(--color-text);
 }
 
 .author-content {
@@ -230,7 +232,7 @@ body {
 
 .author-content p:first-letter {
   float: left;
-  font-size: calc(var(--font-size-base) * 1.1667);
+  font-size: var(--font-size-base);
   line-height: 0.7;
   margin: 0.1em 0.1em 0.1em 0;
 }
@@ -238,7 +240,7 @@ body {
 
 footer {
   padding: var(--spacing-large) var(--spacing-medium);
-  background-color: #f8f8f8;
+  /* background-color: var(--color-background); */
 }
 
 .footer-container {
@@ -247,35 +249,61 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   font-size: var(--font-size-small);
-  color: #666;
+  color: var(--color-text);
 }
 
 
+/* first issue styles - alternating paragraphs */
+#first-issue .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-medium);
+  text-align: left; /* Override justify text for better readability */
+}
+
+#first-issue .container .speech {
+  margin: 0 0 var(--spacing-medium);
+  grid-column: 2;
+  text-align: justify;
+}
+
+/* pyotr */
+#first-issue .container .speech:nth-child(odd) {
+  grid-column: 1;
+  padding-right: 5rem;
+}
+
+/* leonid */
+#first-issue .container .speech:nth-child(even) {
+  padding-top: 3rem;
+}
+
+#first-issue .container .speech:nth-child(even) p {
+  margin-bottom: var(--spacing-small);
+}
+
+#first-issue .container .speech:nth-child(even) p:first-child {
+  text-indent: 0;
+}
+
+#first-issue .container .speech:nth-child(even) p:not(:first-child) {
+  text-indent: 1em;
+}
+
+/* Responsive adjustments for first issue */
 @media (max-width: 768px) {
-  .nav-container {
-    flex-direction: column;
-    align-items: flex-start;
+  #first-issue .container {
+    grid-template-columns: 1fr;
   }
   
-  .nav-links {
-    margin-top: var(--spacing-medium);
+  #first-issue .container p,
+  #first-issue .container p:nth-child(odd) {
+    grid-column: 1;
   }
   
-  .nav-links li {
-    margin-left: 0;
-    margin-right: var(--spacing-medium);
-  }
-  
-  .footer-container {
-    flex-direction: column;
-  }
-  
-  .footer-container p {
-    margin-bottom: var(--spacing-small);
-  }
-  
-  .author-content p:first-letter {
-    font-size: calc(var(--font-size-base) * 0.8333);
+  #first-issue .container p:nth-child(odd) {
+    margin-left: auto;
+    max-width: 80%;
   }
 }
 
