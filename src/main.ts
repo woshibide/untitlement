@@ -168,64 +168,64 @@ async function applyEffect(word: string, effect: Effect): Promise<{
 }
 
 
-/**
- * extracts text content from html while preserving structure
- */
-function extractTextFromHTML(html: string): { text: string; structure: any[] } {
-  const structure: any[] = [];
-  let textContent = '';
-  let currentIndex = 0;
+// /**
+//  * extracts text content from html while preserving structure
+//  */
+// function extractTextFromHTML(html: string): { text: string; structure: any[] } {
+//   const structure: any[] = [];
+//   let textContent = '';
+//   let currentIndex = 0;
   
-  // simple html parser for our specific case
-  const htmlRegex = /<([^>]+)>([^<]*)/g;
-  let match;
+//   // simple html parser for our specific case
+//   const htmlRegex = /<([^>]+)>([^<]*)/g;
+//   let match;
   
-  while ((match = htmlRegex.exec(html)) !== null) {
-    const [fullMatch, tag, content] = match;
+//   while ((match = htmlRegex.exec(html)) !== null) {
+//     const [fullMatch, tag, content] = match;
     
-    if (content.trim()) {
-      structure.push({
-        type: 'tag',
-        tag: tag,
-        startIndex: textContent.length,
-        endIndex: textContent.length + content.length,
-        originalContent: content
-      });
-      textContent += content;
-    }
-  }
+//     if (content.trim()) {
+//       structure.push({
+//         type: 'tag',
+//         tag: tag,
+//         startIndex: textContent.length,
+//         endIndex: textContent.length + content.length,
+//         originalContent: content
+//       });
+//       textContent += content;
+//     }
+//   }
   
-  return { text: textContent, structure };
-}
+//   return { text: textContent, structure };
+// }
 
-/**
- * rebuilds html from transformed text using structure map
- */
-function rebuildHTMLWithTransformedText(transformedText: string, structure: any[], originalHTML: string): string {
-  // for now, let's use a simpler approach that preserves the div structure
-  // but transforms the text content inside
+// /**
+//  * rebuilds html from transformed text using structure map
+//  */
+// function rebuildHTMLWithTransformedText(transformedText: string, structure: any[], originalHTML: string): string {
+//   // for now, let's use a simpler approach that preserves the div structure
+//   // but transforms the text content inside
   
-  // extract all text content and apply transformations per speech div
-  const speechDivRegex = /<div class="speech">([\s\S]*?)<\/div>/g;
-  let result = originalHTML;
-  let match;
+//   // extract all text content and apply transformations per speech div
+//   const speechDivRegex = /<div class="speech">([\s\S]*?)<\/div>/g;
+//   let result = originalHTML;
+//   let match;
   
-  while ((match = speechDivRegex.exec(originalHTML)) !== null) {
-    const fullDiv = match[0];
-    const innerContent = match[1];
+//   while ((match = speechDivRegex.exec(originalHTML)) !== null) {
+//     const fullDiv = match[0];
+//     const innerContent = match[1];
     
-    // extract just the text content from this speech div
-    const textContent = innerContent.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+//     // extract just the text content from this speech div
+//     const textContent = innerContent.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
     
-    if (textContent) {
-      // this is where we apply our transformation logic
-      // for now, return the original structure - we'll implement the transformation next
-      logVerbose(`found speech div with text: "${textContent.substring(0, 50)}..."`);
-    }
-  }
+//     if (textContent) {
+//       // this is where we apply our transformation logic
+//       // for now, return the original structure - we'll implement the transformation next
+//       logVerbose(`found speech div with text: "${textContent.substring(0, 50)}..."`);
+//     }
+//   }
   
-  return result;
-}
+//   return result;
+// }
 
 /**
  * processes html content while preserving div structure but transforming text content
@@ -234,7 +234,7 @@ async function transformHTMLText(html: string): Promise<string> {
   log('beginning html-aware text transformation...');
   
   // find all speech divs and process them individually
-  const speechDivRegex = /<div class="speech">([\s\S]*?)<\/div>/g;
+  const speechDivRegex = /<div class="speech"(?:[^>]*?)>([\s\S]*?)<\/div>/g;
   let transformedHTML = html;
   let totalWords = 0;
   let effectsApplied = 0;
@@ -459,7 +459,7 @@ async function transformHTMLText(html: string): Promise<string> {
       }
     }
     
-    const transformedSpeechDiv = `<div class="speech">${transformedInnerHTML}</div>`;
+    const transformedSpeechDiv = `<div class="speech" lang="ru">${transformedInnerHTML}</div>`;
     
     // replace the original speech div with the transformed one
     // use regex escape to ensure special characters in the fullMatch don't cause issues
