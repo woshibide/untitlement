@@ -102,9 +102,9 @@ function selectEffectWithProgression(
   // first check if we should apply any effect at all
   const random = Math.random();
   if (random > globalProbability) {
-    logVerbose(`random ${random.toFixed(4)} > probability 
-                                            ${globalProbability.toFixed(4)}
-                                            , no effect selected`);
+    // logVerbose(`random ${random.toFixed(4)} > probability 
+                                            // ${globalProbability.toFixed(4)}
+                                            // , no effect selected`);
 
     return NO_EFFECT;
   }
@@ -160,20 +160,79 @@ async function applyEffect(word: string, effect: Effect): Promise<{
 
 
 /**
- * processes the input text and applies transformations
+ * extracts text content from html while preserving structure
  */
-async function transformText(text: string): Promise<string> {
-  // split into words, preserving spaces and punctuation
-  const words = text.match(/\S+|\s+/g) || [];
-  const totalWords = words.filter(w => /\S/.test(w)).length;
-  let wordCount = 0;
+function extractTextFromHTML(html: string): { text: string; structure: any[] } {
+  const structure: any[] = [];
+  let textContent = '';
+  let currentIndex = 0;
+  
+  // simple html parser for our specific case
+  const htmlRegex = /<([^>]+)>([^<]*)/g;
+  let match;
+  
+  while ((match = htmlRegex.exec(html)) !== null) {
+    const [fullMatch, tag, content] = match;
+    
+    if (content.trim()) {
+      structure.push({
+        type: 'tag',
+        tag: tag,
+        startIndex: textContent.length,
+        endIndex: textContent.length + content.length,
+        originalContent: content
+      });
+      textContent += content;
+    }
+  }
+  
+  return { text: textContent, structure };
+}
+
+/**
+ * rebuilds html from transformed text using structure map
+ */
+function rebuildHTMLWithTransformedText(transformedText: string, structure: any[], originalHTML: string): string {
+  // for now, let's use a simpler approach that preserves the div structure
+  // but transforms the text content inside
+  
+  // extract all text content and apply transformations per speech div
+  const speechDivRegex = /<div class="speech">([\s\S]*?)<\/div>/g;
+  let result = originalHTML;
+  let match;
+  
+  while ((match = speechDivRegex.exec(originalHTML)) !== null) {
+    const fullDiv = match[0];
+    const innerContent = match[1];
+    
+    // extract just the text content from this speech div
+    const textContent = innerContent.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+    
+    if (textContent) {
+      // this is where we apply our transformation logic
+      // for now, return the original structure - we'll implement the transformation next
+      logVerbose(`found speech div with text: "${textContent.substring(0, 50)}..."`);
+    }
+  }
+  
+  return result;
+}
+
+/**
+ * processes html content while preserving div structure but transforming text content
+ */
+async function transformHTMLText(html: string): Promise<string> {
+  log('beginning html-aware text transformation...');
+  
+  // find all speech divs and process them individually
+  const speechDivRegex = /<div class="speech">([\s\S]*?)<\/div>/g;
+  let transformedHTML = html;
+  let totalWords = 0;
   let effectsApplied = 0;
   const effectCounts: Record<string, number> = {};
   
   // track effect probabilities as they increase
   const currentProbabilities: Record<string, number> = {};
-  
-  log(`beginning transformation of ${totalWords} words...`);
   
   // initialize effect counters and starting probabilities
   EFFECTS.forEach(effect => {
@@ -181,44 +240,81 @@ async function transformText(text: string): Promise<string> {
     currentProbabilities[effect.name] = effect.probability || 0.5;
   });
   
-  // process each word
-  const transformedWords = await Promise.all(words.map(async (word, index) => {
-    // ignore whitespace
-    if (/^\s+$/.test(word)) {
-      return word;
+  // first pass: count total words across all speech divs
+  let match;
+  const speechDivs: Array<{ fullMatch: string; innerContent: string; textContent: string }> = [];
+  
+  // we need to reset the regex to start from the beginning
+  speechDivRegex.lastIndex = 0;
+  
+  while ((match = speechDivRegex.exec(html)) !== null) {
+    const fullMatch = match[0];
+    const innerContent = match[1];
+    const textContent = innerContent.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+    
+    if (textContent) {
+      speechDivs.push({ fullMatch, innerContent, textContent });
+      const words = textContent.match(/\S+/g) || [];
+      totalWords += words.length;
     }
+  }
+  
+  log(`found ${speechDivs.length} speech divs with ${totalWords} total words`);
+  
+  let wordCount = 0;
+  
+  // second pass: process each speech div
+  for (const speechDiv of speechDivs) {
+    const words = speechDiv.textContent.match(/\S+|\s+/g) || [];
     
-    wordCount++;
-    const globalProbability = getEffectProbability(wordCount, totalWords);
-    const effect = selectEffectWithProgression(globalProbability, currentProbabilities);
-    
-    // increase probabilities for next word
-    EFFECTS.forEach(e => {
-      const step = e.step || 0;
-      if (step > 0) {
-        // increase probability based on progression through text
-        const progressFactor = wordCount / totalWords;
-        currentProbabilities[e.name] = Math.min(
-          (currentProbabilities[e.name] || 0.5) + (step * progressFactor), 
-          1
-        );
+    // transform words in this speech div
+    const transformedWords = await Promise.all(words.map(async (word) => {
+      // ignore whitespace
+      if (/^\s+$/.test(word)) {
+        return word;
       }
-    });
+      
+      wordCount++;
+      const globalProbability = getEffectProbability(wordCount, totalWords);
+      const effect = selectEffectWithProgression(globalProbability, currentProbabilities);
+      
+      // increase probabilities for next word
+      EFFECTS.forEach(e => {
+        const step = e.step || 0;
+        if (step > 0) {
+          const progressFactor = wordCount / totalWords;
+          currentProbabilities[e.name] = Math.min(
+            (currentProbabilities[e.name] || 0.5) + (step * progressFactor), 
+            1
+          );
+        }
+      });
+      
+      if (effect !== NO_EFFECT) {
+        effectsApplied++;
+        effectCounts[effect.name] = (effectCounts[effect.name] || 0) + 1;
+      }
+      
+      const result = await applyEffect(word, effect);
+      
+      // wrap the word in a span with the appropriate class
+      if (result.effect === NO_EFFECT) {
+        return `<span>${result.word}</span>`;
+      } else {
+        return `<span class="effect-${result.effect.name}" title=">${result.originalWord}">${result.word}</span>`;
+      }
+    }));
     
-    if (effect !== NO_EFFECT) {
-      effectsApplied++;
-      effectCounts[effect.name] = (effectCounts[effect.name] || 0) + 1;
-    }
+    // create a new div with transformed content
+    const transformedInnerHTML = transformedWords.join('');
+    const transformedSpeechDiv = `<div class="speech">${transformedInnerHTML}</div>`;
     
-    const result = await applyEffect(word, effect);
-    
-    // wrap the word in a span with the appropriate class
-    if (result.effect === NO_EFFECT) {
-      return `<span>${result.word}</span>`;
-    } else {
-      return `<span class="effect-${result.effect.name}" title="Original: ${result.originalWord}">${result.word}</span>`;
-    }
-  }));
+    // replace the original speech div with the transformed one
+    // use regex escape to ensure special characters in the fullMatch don't cause issues
+    const escapedFullMatch = speechDiv.fullMatch.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const replaceRegex = new RegExp(escapedFullMatch, 'g');
+    transformedHTML = transformedHTML.replace(replaceRegex, transformedSpeechDiv);
+  }
   
   log(`transformation complete - applied effects to ${effectsApplied} 
         of ${wordCount} words (${Math.round(effectsApplied/wordCount*100)}%)`);
@@ -231,7 +327,7 @@ async function transformText(text: string): Promise<string> {
   
   log(`effect distribution: ${effectStats}`);
   
-  return transformedWords.join('');
+  return transformedHTML;
 }
 
 /**
@@ -252,11 +348,11 @@ async function main(): Promise<void> {
   console.timeEnd('read input (issue 2)');
   console.log(`read ${inputTextIssue2.length} characters for issue 2 from: ${INPUT_ISSUE_2_FILE}`);
   
-  console.log('\ntransforming text for issue 2...');
+  console.log('\ntransforming html text for issue 2...');
   log(`available effects (${EFFECTS.length}): ${EFFECTS.map(e => e.name).join(', ')}`);
   log(`effect probability ranges from 0 to ${MAX_EFFECT_CHANCE} (max at ${PROGRESSION_THRESHOLD * 100}% of text)`);
   console.time('transform (issue 2)');
-  const transformedContentIssue2 = await transformText(inputTextIssue2);
+  const transformedContentIssue2 = await transformHTMLText(inputTextIssue2);
   console.timeEnd('transform (issue 2)');
 
   // 3. read content for issue 3 (raw)

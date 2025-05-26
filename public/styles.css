@@ -95,11 +95,11 @@ nav{
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline solid 2px;
   color: var(--color-text);
 }
 a:hover {
-  text-decoration: underline solid 2px;  
+  text-decoration: underline solid 4px;  
 }
 
 .nav-links a{
@@ -184,6 +184,10 @@ h1 {
 }
 
 /* second issue styles */
+#second-issue {
+  margin-top: (var(--spacing-large) * 7.5 * -1)
+}
+
 #second-issue span {
   display: inline-block;
   transition: all 0.2s ease;
@@ -191,8 +195,8 @@ h1 {
 
 #second-issue span:hover {
   transform: scale(1.05);
-  background-color: black;
-  color: var(--color-text);
+  background-color: var(--color-text);
+  color: var(--color-background);
 }
 
 .effect-upside-down {
@@ -239,47 +243,56 @@ h1 {
 
 
 /* first issue styles - using 12-column grid */
-#first-issue .container {
+#first-issue .container, 
+#second-issue .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: var(--grid-gap);
 }
 
-#first-issue .container .speech {
+#first-issue .container .speech, 
+#second-issue .container .speech {
   margin: 0 0 var(--spacing-medium);
   text-align: justify;
 }
 
 /* pyotr - left */
-#first-issue .container .speech:nth-child(odd) {
+#first-issue .container .speech:nth-child(odd), 
+#second-issue .container .speech:nth-child(odd){
   grid-column: 1 / 6;
   padding-right: var(--spacing-large);
 }
 
 /* leonid - right */
-#first-issue .container .speech:nth-child(even) {
+#first-issue .container .speech:nth-child(even), 
+#second-issue .container .speech:nth-child(even){
   grid-column: 7 / 13;
   padding-top: var(--spacing-medium);
 }
 
-#first-issue .container .speech:nth-child(even) p {
+#first-issue .container .speech:nth-child(even) p, 
+#second-issue .container .speech:nth-child(even) p { 
   margin-bottom: var(--spacing-small);
 }
 
-#first-issue .container .speech:nth-child(even) p:first-child, .essay p:first-child {
+#first-issue .container .speech:nth-child(even) p:first-child,
+#second-issue .container .speech:nth-child(even) p:first-child, 
+.essay p:first-child{
   text-indent: 0;
 }
 
-#first-issue .container .speech:nth-child(even) p:not(:first-child), .essay p {
+#first-issue .container .speech:nth-child(even) p:not(:first-child), 
+#second-issue .container .speech:nth-child(even) p:not(:first-child), 
+.essay p {
   text-indent: var(--spacing-large);
 }
 
-#first-issue h1, #first-issue h3 {
+h1, h3 {
   padding-block: var(--spacing-medium);
   grid-column: 1 / -1;
 }
 
-#first-issue h3 {
+h3 {
   grid-column: 1 / 8; 
 }
 
