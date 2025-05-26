@@ -53,11 +53,14 @@ body {
   border: var(--border-width) solid var(--color-border); 
   box-sizing: border-box; /* ensure padding and border are included in the element's total width and height */
   text-align: justify;
+  overflow-x: hidden; /* prevent horizontal scrolling */
 }
 
 
 nav{
   padding-inline: var(--spacing-small);
+  padding-top: 4px;
+  background: linear-gradient(to bottom, white, transparent);
 }
 
 .main-nav {
@@ -69,7 +72,6 @@ nav{
 }
 
 .nav-container {
-  background: linear-gradient(to bottom, white, transparent);
   vertical-align: baseline;
   display: flex;
   justify-content: space-between;
@@ -95,6 +97,7 @@ nav{
 }
 
 a {
+  font-weight: inherit;
   text-decoration: underline solid 2px;
   color: var(--color-text);
 }
@@ -102,29 +105,42 @@ a:hover {
   text-decoration: underline solid 4px;  
 }
 
-.nav-links a{
+nav * a{
   position: relative;
+  text-decoration: underline solid 1px;
+}
+nav * a:hover {
+  text-decoration: underline solid 2px;
 }
 
 
 #hero {
   padding: var(--spacing-small);
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .section {
   padding: var(--spacing-large) var(--spacing-small);
   min-height: 80vh;
   margin-top: calc(var(--spacing-large) * 7.5);
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
   /* border-bottom: 1px solid #000; */
 }
 
 h1, .section h2 {
   color: var(--color-text);
   margin-top: 0;
-  font-weight: normal;
   font-size: var(--font-size-heading);
   /* text-transform: lowercase; */
   margin-bottom: var(--spacing-large);
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -136,6 +152,8 @@ h1 {
   margin: 0 auto;
   padding: 0 var(--spacing-small);
   text-align: justify;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* 12-column grid system */
@@ -144,6 +162,8 @@ h1 {
   grid-template-columns: repeat(var(--grid-columns), 1fr);
   gap: var(--grid-gap);
   width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 /* grid column classes */
@@ -185,41 +205,57 @@ h1 {
 
 /* second issue styles */
 #second-issue {
-  margin-top: (var(--spacing-large) * 7.5 * -1)
+  margin-top: calc(var(--spacing-large) * 7.5 * -1);
+  width: 100%;
+  overflow-x: hidden;
 }
 
-#second-issue span {
+#second-issue span, #first-issue p {
   display: inline-block;
   transition: all 0.2s ease;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
 }
 
-#second-issue span:hover {
-  background-color: var(--color-text);
+#second-issue span:hover, #first-issue p:hover {
   color: var(--color-background);
+  text-align: left;
+  background-color: var(--color-nav);
   border-radius: var(--spacing-small);
-  padding-inline: var(--spacing-small);
+  padding: var(--spacing-small);
+  box-shadow: 0 4px 15px var(--color-shadow);
 }
 
 .effect-upside-down {
   transform: scaleY(-1);
   display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .effect-corrupt {
   /* text-shadow: 2px 0 0 rgba(255, 0, 0, 0.5), -2px 0 0 rgba(0, 0, 255, 0.5); */
   color: var(--color-corrupt);
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 .effect-crazy-case {
   color: var(--color-crazy-case);
   font-size: var(--font-size-base);
   /* font-weight: bold; */
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 .effect-translate {
   color: var(--color-translate);
   position: relative;
   /* top: -2px; */
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 .effect-reverse {
@@ -227,6 +263,8 @@ h1 {
   direction: rtl;
   unicode-bidi: bidi-override;
   display: inline-block;
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 
@@ -255,6 +293,11 @@ h1 {
 #second-issue .container .speech {
   margin: 0 0 var(--spacing-medium);
   text-align: justify;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* pyotr - left */
@@ -288,9 +331,11 @@ h1 {
   text-indent: var(--spacing-large);
 }
 
-h1, h3 {
+h1, h2, h3 {
   padding-block: var(--spacing-medium);
   grid-column: 1 / -1;
+  font-weight: 550;
+  overflow-x: hidden;
 }
 
 h3 {
@@ -305,6 +350,8 @@ h3 {
 
 /* responsive grid classes */
 @media (max-width: 1024px) {
+  
+
   :root {
     --grid-gap: var(--spacing-small);
   }
@@ -325,19 +372,43 @@ h3 {
 }
 
 @media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
   :root {
     --grid-gap: var(--spacing-small);
   }
   
+  .section {
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    padding: var(--spacing-medium) var(--spacing-small);
+  }
+  
   /* mobile: stack all content in single column */
-  #first-issue .container {
+  #first-issue .container,
+  #second-issue .container {
     grid-template-columns: 1fr;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0;
   }
   
   #first-issue .container .speech:nth-child(odd),
-  #first-issue .container .speech:nth-child(even) {
+  #first-issue .container .speech:nth-child(even),
+  #second-issue .container .speech:nth-child(odd),
+  #second-issue .container .speech:nth-child(even) {
     grid-column: 1;
     padding-right: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  #second-issue .container .speech span {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
   }
   
   #first-issue .container .speech:nth-child(odd) {
