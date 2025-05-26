@@ -1,0 +1,43 @@
+{
+  "effects": {
+    "translate": {
+      "probability": 0.1,
+      "step": 0.005,
+      "enabled": true
+    },
+    "reverse": {
+      "probability": 0.05,
+      "step": 0.0,
+      "enabled": true
+    },
+    "upside-down": {
+      "probability": 0.9,
+      "step": 0.02,
+      "enabled": true
+    },
+    "crazy-case": {
+      "probability": 0.85,
+      "step": 0.005,
+      "enabled": true
+    },
+    "corrupt": {
+      "probability": 0.75,
+      "step": 0.05,
+      "enabled": true
+    }
+  },
+  "global": {
+    "maxEffectChance": 1.0,
+    "progressionThreshold": 0.75,
+    "debugMode": true,
+    "debugVerbose": true
+  },
+  "visual": {
+    "colorScheme": "vibrant",
+    "animations": true,
+    "hoverEffects": true
+  }
+}
+
+
+

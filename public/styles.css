@@ -8,11 +8,11 @@
   --color-nav: #111111;
   --color-nav-text: #f5f5f5;
 
-  --color-translate: black;
-  --color-reverse: black;
-  --color-upside-down: black;
-  --color-crazy-case: black;
-  --color-corrupt: black;
+  --color-translate: inherit;
+  --color-reverse: inherit;
+  --color-upside-down: inherit;
+  --color-crazy-case: inherit;
+  --color-corrupt: inherit;
   
   /* sizes */
   --spacing-small: 1rem;
@@ -41,9 +41,9 @@ h1, h2, h3, h4, h5, h6, p, em {
 
 body {
   /* line-height: 95%; */
-  font-family: "Golos Text", sans-serif;
+  font-family: sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
   font-size: var(--font-size-base);
   margin: 0;
@@ -194,9 +194,10 @@ h1 {
 }
 
 #second-issue span:hover {
-  transform: scale(1.05);
   background-color: var(--color-text);
   color: var(--color-background);
+  border-radius: var(--spacing-small);
+  padding-inline: var(--spacing-small);
 }
 
 .effect-upside-down {
