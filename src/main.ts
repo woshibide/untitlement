@@ -22,8 +22,8 @@ const OUTPUT_DIR = path.join(__dirname, '../public');
 const OUTPUT_FILE = path.join(OUTPUT_DIR, 'index.html'); // this will be the consolidated page
 
 // input files for the three issues
-const INPUT_ISSUE_1_FILE = path.join(__dirname, '../input/issue-1.txt');
-const INPUT_ISSUE_2_FILE = path.join(__dirname, '../input/issue-2.txt');
+const INPUT_ISSUE_1_FILE = path.join(__dirname, '../input/ru/issue-1.txt');
+const INPUT_ISSUE_2_FILE = path.join(__dirname, '../input/ru/issue-2.txt');
 const INPUT_ISSUE_3_FILE = path.join(__dirname, '../input/issue-3.txt');
 
 // template file
