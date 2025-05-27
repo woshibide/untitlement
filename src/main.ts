@@ -7,6 +7,7 @@ import {
   corruptWord
 } from './effects';
 import {
+  config,
   DEBUG_MODE,
   DEBUG_VERBOSE,
   log,
@@ -28,47 +29,54 @@ const INPUT_ISSUE_3_FILE = path.join(__dirname, '../input/issue-3.txt');
 // template file
 const TEMPLATE_FILE = path.join(__dirname, 'templates/tmp_index.html');
 
-const MAX_EFFECT_CHANCE = 1;          // at maximum
-const PROGRESSION_THRESHOLD = 0.75;   // when to reach max effect chance
+// use values from config.json
+const MAX_EFFECT_CHANCE = config.global.maxEffectChance;        
+const PROGRESSION_THRESHOLD = config.global.progressionThreshold;
 
 interface Effect {
   name: string;
   apply: (word: string) => Promise<string> | string;
   probability?: number; // default 0.5
   step?: number;        // probability progression
+  enabled?: boolean;    // whether the effect is enabled
 }
 
-// available effects
+// available effects loaded from config.json
 const EFFECTS: Effect[] = [
   {
     name: 'translate',
     apply: translateWord,
-    probability: 0.1,
-    step: 0.005
+    probability: config.effects.translate.probability,
+    step: config.effects.translate.step,
+    enabled: config.effects.translate.enabled
   },
   {
     name: 'reverse',
     apply: reverseWord,
-    probability: 0.05,
-    step: 0.0
+    probability: config.effects.reverse.probability,
+    step: config.effects.reverse.step,
+    enabled: config.effects.reverse.enabled
   },
   {
     name: 'upside-down',
     apply: upsideDownWord,
-    probability: 0.9,
-    step: 0.02
+    probability: config.effects["upside-down"].probability,
+    step: config.effects["upside-down"].step,
+    enabled: config.effects["upside-down"].enabled
   },
   {
     name: 'crazy-case',
     apply: crazyCaseWord,
-    probability: 0.85,
-    step: 0.005
+    probability: config.effects["crazy-case"].probability,
+    step: config.effects["crazy-case"].step,
+    enabled: config.effects["crazy-case"].enabled
   },
   {
     name: 'corrupt',
     apply: corruptWord,
-    probability: 0.75,
-    step: 0.05
+    probability: config.effects.corrupt.probability,
+    step: config.effects.corrupt.step,
+    enabled: config.effects.corrupt.enabled
   }
 ];
 

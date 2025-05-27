@@ -2,6 +2,8 @@
 // each effect takes a single word and returns a modified version
 // all functions are for use in the main transformation logic
 
+import { config } from './utils'; // import config for effect parameters
+
 
 
 /**
@@ -31,7 +33,8 @@ export function upsideDownWord(word: string): string {
     const characters = word.split('');
     const result = characters.map(char => {
 
-      const shouldFlip = Math.random() < 0.5;
+      // use probability from config, with fallback to hardcoded value
+      const shouldFlip = Math.random() < (config.effects["upside-down"].probability || 0.5);
       
       if (shouldFlip) {
         return `<span class="effect-upside-down">${char}</span>`;
@@ -113,7 +116,8 @@ export function corruptWord(word: string): string {
     // process each character in the word
     return word.split('').map(char => {
 
-    const chanceOfCorruption = 0.2;
+    // use probability from config, with fallback to hardcoded value
+    const chanceOfCorruption = config.effects.corrupt.probability || 0.2;
     const maxDiacriticalMarks = 25;
     const numCombiningChars = Math.random() < chanceOfCorruption ? 
                               Math.floor(Math.random() * maxDiacriticalMarks) + 1 : 0;

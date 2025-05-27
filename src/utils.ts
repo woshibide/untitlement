@@ -1,9 +1,13 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-// debug configuration
-export const DEBUG_MODE = true;            
-export const DEBUG_VERBOSE = true;
+// load configuration from config.json
+const CONFIG_PATH = path.join(__dirname, '../config.json');
+export const config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8').replace(/\/\/.*$/gm, ''));
+
+// debug configuration from config file
+export const DEBUG_MODE = config.global.debugMode;            
+export const DEBUG_VERBOSE = config.global.debugVerbose;
 
 // debug logger function
 export function log(...args: any[]): void {

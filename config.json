@@ -6,19 +6,19 @@
       "enabled": true
     },
     "reverse": {
-      "probability": 0.05,
+      "probability": 0,
       "step": 0.0,
-      "enabled": true
+      "enabled": false
     },
     "upside-down": {
-      "probability": 0.9,
-      "step": 0.02,
-      "enabled": true
+      "probability": 0,
+      "step": 0,
+      "enabled": false
     },
     "crazy-case": {
-      "probability": 0.85,
+      "probability": 0.35,
       "step": 0.005,
-      "enabled": true
+      "enabled": false
     },
     "corrupt": {
       "probability": 0.75,

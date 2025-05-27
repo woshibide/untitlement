@@ -205,7 +205,6 @@ h1 {
 
 /* second issue styles */
 #second-issue {
-  margin-top: calc(var(--spacing-large) * 7.5 * -1);
   width: 100%;
   overflow-x: hidden;
 }

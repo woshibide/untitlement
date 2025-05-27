@@ -1,654 +1,589 @@
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Леонид? Мы сейчас пишем интервью?</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: Leonid? Are we writing an interview now?</p>
 
 </div>
 
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Да... значит, на какое-то шоу, аля как <em>Таланты Украины</em>... только, по-моему,
-        американского крыла. Там был чувак, который заявил, что у него есть талант в чтении книжек. Там сразу, конечно,
-        переполох поднялся и заинтересованность. Как это вообще всё выглядело? Даю пример: такой же столик, как сейчас,
-        перед нами в этом баре. И он говорит, что сейчас всё быстро перед ним прочтет. Выглядело это следующим образом:
-        просто пролистывает книгу и при этом в микрофонную петличку, которую я подключаю сейчас, говорит: "Вот так вот
-        так
-        вот" [<i>речь Леонида Ускоряется до невообразимых количеств слов в секунду; здесь и далее примечания в
-            квадратных скобках — прим. интервьюера</i>] Вот. В принципе, так же я могу рассказать вкратце, как я попал в
-        Приднестровье...</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: Yes... so, for some show, like <em>Talents of Ukraine</em>... only, in my opinion,
+        from the American wing. There was a guy who claimed he had a talent for reading books. There was immediately, of course,
+        an uproar and interest. What did it all look like? I'll give you an example: a table like this one, in front of us in this bar. And he says he's going to read everything quickly in front of him. It looked like this:
+        he just flips through the book and at the same time into the microphone lapel, which I'm connecting now, says: "Like this
+        so
+        here" [<i>Leonid's speech speeds up to unimaginable amounts of words per second; here and further notes in
+            square brackets - note. interviewer</i>] That's it. Basically, that's how I can briefly tell you how I ended up in
+        Transnistria...</p>
 
 </div>
 
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Будет очень интересно послушать.</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: It will be very interesting to hear.</p>
 
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Короче... Шахты Приднестровья. Я думал, они заброшены, а они оказались рабочие. И вот я
-        там.
-        Но охранник меня не заметил, как я пролез на территорию. Я потом обратно возвращался и он на <em>толпе</em>. И
-        там такой вход
-        в шахту. Я подхожу и смотрю: не такая дыраба типа подворотами. Так присматриваюсь: пролезу в неё или нет? И тут
-        из-за дыры вылезает <em>беременная собака</em>. Я как бы кринжую из этого, но понимаю: если она смогла пролезть,
-        то уж точно
-        я должен как-то пролезть. Но в этот момент меня <em>связь-блюда-фонарь</em> и там какой-то чувак; мы с ним
-        начинаем в
-        каваринстве и оказывается, что он сделал какой-то <em>спешалти-кофе</em> на территории этой шахты.
-    В раскрытии шахтов вообще рабочая, что ты пролезть туда. Thankfully, доуришить уже не то, что
-    было не раз. Cotри targeting, перепыры, вот и достаточно приятное общение.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: In short... The mines of Transnistria. I thought they were abandoned, but they turned out to be operational. And there I am.
+        But the guard didn't notice me as I slipped into the territory. I was coming back and he was at the <em>crowd</em>. And
+        there was an entrance
+        to the mine. I approached and looked: not such a hole like in the gateways. So I looked closely: can I crawl in or not? And then
+        from the hole, a <em>pregnant dog</em> crawls out. I'm kind of cringing from this, but I understand: if she could crawl through,
+        then for sure
+        I must somehow crawl through. But at that moment, I was <em>connection-dish-lantern</em> and there was some guy; we started in
+        camaraderie and it turns out he made some kind of <em>specialty-coffee</em> on the territory of this mine.
+    In the disclosure of the mines, it's really working, that you crawl in there. Thankfully, to endure already not what
+    was not once. Cotri targeting, перепыры, вот и достаточно приятное общение.</p>
 
-    <p>А он не берет деньги за кофе, которoе он сделал. Вот рассказывает про то, что сейчас ездит типа в
-        <em>Преднестровье</em>. Я jxe сказать, что как раз хотел бы это смотреть и что там... Да как, короче, у меня
-        сложилось такое впечатление, что он очень приятный человек и что мы с ним можем там оказаться.
+    <p>And he doesn't charge money for the coffee he made. So he talks about the fact that he now travels to
+        <em>Transnistria</em>. I wanted to say that I would like to see this and that there... Yes, how, in short, I got
+        the impression that he is a very nice person and that we can end up there together.
     </p>
 
-    <p>На днях поеду, могу тебе сообщить. Потом, в последствии, по телефону он сообщает такую вещь: вот он поедет завтра
-        и мог бы сделать мне сопровождение в <em>Преднестровье</em>, так как и сам понимаешь, самому опасно будет.
-        За что он попросил примерно в десять раз больше денег, чем на поездку на автобусе. Я не очень понял. С шахтами я
-        бы не пролез, но там реально страшновато всё выглядит.</p>
+    <p>Recently, he said over the phone: he would go tomorrow
+        and could accompany me to <em>Transnistria</em>, because, you understand, it will be dangerous to go alone.
+        For which he asked for about ten times more money than the bus trip. I didn't quite understand. I wouldn't have crawled with the mines, but it all looks really scary.</p>
 </div>
 
-<div class="speech" lang="ru">
+<div class="speech">
     <p><strong>Pyotr</strong>:
-        Это была та спрятанная сокровищественного Советского Союза? Тот ядерный бункер около границы?</p>
+        Was it that hidden treasure of the Soviet Union? That nuclear bunker near the border?</p>
 </div>
 
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Нет, рабочая шахта – это реально опасная
-        тема. И МК-рабочия там просто пили этот дьёгонный металл.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: No, a working mine is a really dangerous
+        topic. And the MK-workers there just drank this devilish metal.</p>
 
 </div>
 
-<div class="speech" lang="ru">
+<div class="speech">
     <p><strong>Pyotr</strong>:
-        Это мы про какую шахту говорим? Которая в городе?</p>
+        Which mine are we talking about? The one in the city?</p>
 </div>
 
-<div class="speech" lang="ru">
+<div class="speech">
     <p><strong>Leonid</strong>:
-        Нет-нет! Там... Про шахту — там добыча какая-то до сих пор происходит. Это реально очень серьёзно. А по-сратце пробует есть сюда залезть, потому что охрана у тебя там привязь. Ну а два
-        часа в Приднестровье, это вообще <em>шкот</em>.</p>
+        No-no! There... About the mine - there is some extraction still happening. It's really serious. And it's a pain in the ass to try to sneak in here because the guard is tied to you. Well, two
+        hours in Transnistria, it's generally shkot.</p>
 </div>
 
 
-<div class="speech" lang="ru">
+<div class="speech">
     <p><strong>Pyotr</strong>:
-        И что там было? </p>
+        And what was there? </p>
 </div>
 
-<div class="speech" lang="ru">
+<div class="speech">
     <p><strong>Leonid</strong>:
-        Шкотовый! Это ты едешь... Значит не могу. Да! Северная Кария! Конечно! Чего
-        угодно!</p>
+        Shkotovy! You're going... I can't. Yes! Northern Karia! Of course! Whatever
+        you want!</p>
 </div>
 
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Да</p>
-</div>
-
-
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Да. В Атсапре-днистровия. Ты проезжаешь самую северный
-        водой. Перехоз до границы. Вот где находятся в тачками с мудованами [<i>молдованами</i>] и там все
-        <em>максимальные</em>. Мудование плюс ты
-        Рассиянен. Абсолютно выведен.
-        Что-то хотите просто смотреть. Не заёбывают, не обращают внимание на то, что ехать. Я снимаю
-        на что-то как и ровно. Все, порядки 5 минут на территории.</p>
-
-    <p>Короче, живем, там все, короче, максимально отсутствует свет. Встречаются на улице какие-то
-        люди, в основном военные формы, но не имеют еще никакого отношения к военным.
-
-        Просто просто, просто можно видеть, там не шибко много, что носить можно. Система каст. Устанись этому
-        музею просто.</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: Yes</p>
 </div>
 
 
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Так, меня в принципе другой вопрос о кастовании интересует...</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: Yes. In Atsapre-Dniesteria. You pass the northernmost
+        water. Transfer to the border. This is where the cars with the Moldovans [<i>moldovans</i>] are located and there everything is
+        <em>maximum</em>. Moldovan plus you
+        Russian. Absolutely withdrawn.
+        You just want to see something. They don't fuck you up, they don't pay attention to what you're driving. I'm filming
+        on something like and evenly. All, about 5 minutes on the territory.</p>
+
+    <p>In Short, We Live there, EVERYTHING There is Generally Maximallly Devoid of Light. </p>
 </div>
 
 
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Есть несколько кастований: там зажиточными себя считают люди, которые устроены на работы
-        в какие-то просто заводские помещения, потому что их можно грабить.
+<div class="speech">
+    <p><strong>Pyotr</strong>: So, I am basically interested in another question about casting...</p>
+</div>
 
-        Можно грабить то, что там осталось в прередних времен; это самое ультро крутое. То есть это
-        как не знаю: здесь <i>[В нидерландах]</i> кто на фераре с отрицтым верховым.
-        значит вы едете по как бы ничего не произошло. Входит темнота полноцикой Чеволива.</p>
 
-    <p>Я еще замечательный плеильист; зафигачил на выслушку... Там шамана и разных других хороших
-        исполнителей песеных плясок. И потом мы попали соответственно в район бендеры, пентагон около прадии; там мы
-        вышли из
-        машины.Я через забор перелес посмотрел на кладбища, который находится вокруг этого так называемого
-        пентагона. Увиделые чертусы, там просто <em>ступеный чайный мород</em>, потому что без морденов и два
-        лод взяли, и людям просто удобно там было ходить. Такие и перелизать про ступь, не надо было. Человеки вообще
-        просто
-        стояли по пути в лесине, и обратно потом сели в машину.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: There are several castes: there are well-to-do people who are employed in some simply factory premises, because they can be robbed.
 
-    <p>А, я ещё прошёл мимо мусоров, это мусорат. В томатном состоялись и не подар Leader. POR С
-        μια — пос kara, не trivia, Dah and Dance Дрех Рассказываю, Ни caves, но через débutailed как что-то нечто ark.
+        You can rob what is left there from previous times; this is the coolest. That is, it's like, I don't know: here <i>[In the Netherlands]</i> whoever is in a Ferrari with a negative top.
+        it means you're driving as if nothing happened. Darkness enters the full cycle of Chevoliva.</p>
+
+    <p>I'm still a wonderful playlist; I pumped up to listen... There are shamans and various other good
+        performers of song dances. And then we ended up, accordingly, in the Bender district, the pentagon near the Pradia; there we
+        got out of
+        the car. I looked over the fence at the cemetery, which is located around this so-called
+        pentagon. I saw the charts, there is just <em>stepped tea berry</em>, because without the Mardens and two
+        boats were taken, and it was just convenient for people to walk there. That's how they walked and stepped, no need. People were just
+        standing on the way in the forest, and then got back in the car.</p>
+
+    <p>OH, I ALSO PASSED by the COPS, It's A Mess. 
     </p>
 </div>
 
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: и никаких проблем с приднестровской миллицией? </p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: and no problems with the Transnistrian militia? </p>
 </div>
 
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Проезжали, да, тоже всё максимально изи на выезде просто показали вот эти бумажки,
-        которые
-        нам дали там. Вот и собственно всё. Много видели там, из окна, какой-то хуйни. То есть там, скажем, какие-то там
-        прямо в центре бендер. То есть самый центр города видно, что у людей <em>аликспрессорские заряженные днем
-            девайсы</em>, потому что в тот момент отключается по с деревьерин. И дальше ты уже уколочай есть. Вот это
-        достаточно интересно выглядит, потому что с кожей вот
-        это очень яркий но мелкий лучсеза окон. Ну вот такие значит приднестровские приключения. </p>
+<div class="speech">
+    <p><strong>Leonid</strong>: We passed, yes, everything is maximally easy, just showed these papers,
+        which
+        they gave us there. That's it. We saw a lot there, from the window, some shit. That is, there, let's say, some there
+        right in the center of Bender. That is, the very center of the city, you can see that people have <em>aliexpress charged during the day
+            devices</em>, because at that moment it turns off by the деревьерин. And then you already have to poke around. This
+        looks quite interesting because with the skin вот
+        it's a very bright but small лучсеза окон. Well, these are the Transnistrian adventures. </p>
 </div>
 
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Хорошо. А что насчёт других наследий цивилизации? Например, колодцы?</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: Good. And what about other legacies of civilization? For example, wells?</p>
 
 </div>
 
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Слушай, я не знаю конкретно с этим. Я не провёл там столько времени чтобы рассматривать
-        цептокс и дину ютальтия. Но предполагаю, что с этим особых проблем нет; проблемы в Нарской материи или кастера.
+<div class="speech">
+    <p><strong>Leonid</strong>: Listen, I don't know specifically about this. I haven't spent enough time there to consider
+        цептокс and дину ютальтия. But I suppose that there are no special problems with this; the problems are in the Narva matter or the caster.
     </p>
 </div>
 
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: То есть водонапорная система не связана с этой электричеством?</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: So the water supply system is not related to this electricity?</p>
 </div>
 
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: В любом новии я сколько раз был — там всегда вывелся как выководится. Вода толкалась из
-        страны.
-        И мало кто хочет упадать на город, чтобы иметь просто <em>сконализация</em>; чаще рают яму, и
-        из дома всё снимается в одну яму. Потом я приточил, что с кислородом я приточил.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: In any new place I've been to — there has always been a way to get water. And
+        few people want to fall into the city just to have a simple <em>skonalization</em>; more often they dig a pit, and
+        everything is removed from the house into one pit. Then I dragged it, that with oxygen I dragged.</p>
 
 </div>
 
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: У меня дядька, например, у него особенное отношение к городу. Он себе дом построил
-        так, что электростанция платит ему деньги каждый месяц за то, что он отдаёт энергию обратно на линию. Солнечные
-        панели стоят,
-        маленький вентилятор, он даже выкопал себе тонель под землей для термодинамической турбины.</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: I have an uncle, for example, he has a special relationship with the city. He built himself a house
+        so that the power plant pays him money every month for giving energy back to the grid. There are solar panels,
+        a small fan, he even dug himself a tunnel underground for a thermodynamic turbine.</p>
 </div>
 
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Да кто-то хороший! Я салонист тоже с котировым. А сон с ней уже получаю кедровую дры;
-        кедровую и земле — ещё не ты попал. Мм... на самом деле конец.
-        Нарисуй здесь. Прямо летом аттилифемом. В Румынии я Inv Pho. Сплошное напитывание... Ой! Просто по трагамер
-        делку. Книжки классные! И вообще очень
-        классный чувак [<i>Михай Брабанеску</i>]. Я угорел; там просто всё сапало.Значит, всё пошлоу с моей подружечкой
-        — трансушечкой в Ладе — которая изначально долгое
-        время жила в Нидерландах. И она мне подсказала мои первичные шаги по Амстердаму: что нужно прийти в Кабию и в
-        Кабии
-        искать от трансушечки в Ладе.Там действительно первый... как и дал мазик мне благодаря... открылись! Короче,
-        иначе к
-        Михайи приходит нам; я его тоже вписал в то же место, где сам находился.Траслочки владел him, понимает, что это
-        то единственное место, где он был единственный раз в
-        тишине 5 лет назад. Он устроил с бурагоз, кислотный, и стулья выкидывал через окно.У него была потом презентация
-        книги была, на которую пришёл человек, который, собственно, владелец этого места. Они
-        устроили некоторое примирение. Михай объяснил ему, что он там был уроженец и всё такое. За зрительностью прошу
-        простить меня за этот курьёз.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: Yes, someone good! I'm a salonist too with a quoted one. And the dream with her already brings cedar drus;
+        cedar and the ground — you haven't hit yet. Mm... actually the end.
+        Draw here. Right in the summer with attitlifem. In Romania, I Inv Pho. Pure saturation... Oh! Just по трагамер
+        делку. Cool books! And in general, very
+        cool dude [<i>Mihai Brabaneșcu</i>]. I was blown away; there everything was just sapalo. So, everything started with my little girlfriend
+        — a transushka in Lada — who initially lived for a long time in the Netherlands. And she hinted me my primary steps in Amsterdam: what you need to do is come to Kabia and in Kabia
+        look for a transushka in Lada. There really is the first... as he gave me the mazic thanks to... they opened up! In short,
+        otherwise
+        Mihai comes to us; I also wrote him into the same place where I was myself. The transushkas owned him, he understands that this
+        is the only place where he was the only time in
+        silence 5 years ago. He made a fuss, acid, and threw chairs out the window. Then he had a book presentation,
+        which a person came to, who, in fact, was the owner of this place. They
+        made some kind of reconciliation. Mihai explained to him that he was a native there and all that. Please
+        forgive me for this curiosity as a viewer.</p>
 
-    <p>Там прикольная фотография: ровно в момент, когда я прошёл в комплекте в играх без грязной передачи ключей Михаилу
-        [Михаю]. Кто-то сфотографировал нас — какие-то строители. Бомный бредатель! Но просто вы... Какой-то учитель с принтера
-        вылез короче. Не молдобан! Мне порос ещё что в молдобе. В отличие от этой прагрузчей с управнейшей Европой есть там
-        одна газа [<i>Томатное Гозе - уникальное российское пиво с овощами</i>]. То есть она мало не в газе. Вот так... Ну газет фортпива, типа ой... Я уже в России лет расстранино. А бажаю просто
-        невероятную вещь и у меня
-        уделяет.</p>
+    <p>There’s a cool photo: exactly at the moment when I passed in a set in games without a dirty handover of keys to Mikhail
+        [Mihai]. Someone photographed us — some builders. Bombastic nonsense! But just you... Some teacher from a printer
+        climbed out, in short. Not a Moldovan! I was also asked about something in Moldova. Unlike this loaded one with the most managed Europe, there is
+        one “gaza” [<i>Tomato Gose - a unique Russian beer with vegetables</i>]. That is, it’s almost not in “gaza”. That’s it... Well, a newspaper for beer, like oh... I’ve already been in Russia for years, spread out. And I just wish
+        an incredible thing and I
+        am amazed.</p>
 
-    <p>У меня уделяет. Уделяет, например, не торлак, а фигда супер за зодрочный бар. Спрашивают на газе и что-то
-        говорят:
-        да, она там будет удастся раз-два года примерно. Потому что они реально мечтают запупать это кива. Почему его не
-        производят? Это акуенная бизнес-идея!</p>
+    <p>I am Amazed. </p>
 
-    <p>Я считаю, что это нетерванды [Нидерланды] и томатная гезэ должны быть связаны просто с детства. Здесь три человека — это
-        какой-то фудыщер и
-        бизнес-идея потому что газа это предума на брать с линии. Вот ещё я для фирмы, чуваком с Алтым, жирным, чуваком
-        с Алтым. Вот. Вот ещё я тогда из того,
-        что я всё хулил. Тут было бедно. Хорошая газая, хоп-хат-бриверия, а в Украине все рустремы. Вутылочка, с
-        рустремен, томатной
-        кузы, я всё мечтаю.
+    <p>I believe that these are the Netherlands [Niderlandy] and tomato gose should be connected from childhood. Here are three people — this is
+        some kind of foodie and
+        a business idea because “gaza” is an idea to take from the line. Here’s also for the company, a dude with Alty, a fat dude with
+        Alty. That’s it. Here’s also from what
+        I cursed everything. It was poor here. Good “gazaya”, hop-hat-brewery, and in Ukraine everything is “rustremy”. A bottle, with
+        “rustrem”, tomato
+        kuza, I dream of all this.
 </div>
-<div class="speech" lang="ru">
+<div class="speech">
     <p><strong>Pyotr</strong>:
-        А томаты, где их тут выращивать?</p>
+        And tomatoes, where are they grown here?</p>
 </div>
-<div class="speech" lang="ru">
+<div class="speech">
     <p><strong>Leonid</strong>:
-        На солнечной панели. На солнечной панели. На солнечной панели. На солнечной панели. На солнечной панели.</p>
+        On solar panels. On solar panels. On solar panels. On solar panels. On solar panels.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Так, окей...
+<div class="speech">
+    <p><strong>Pyotr</strong>: So, okay...
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: ну знаешь, при дистрове здесь знаешь малдол... </p>
+<div class="speech">
+    <p><strong>Leonid</strong>: well you know, при дистрове здесь знаешь малдол... </p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Давай двигаться дальше. Румыния. Это... Это что вообще? Каковы впечатления?</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: Let's move on. Romania. This... What is it even? What are the impressions?</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: травeлбог теперь, да? Мы не очень сложно; просто я там был Прокраски и вообще здесь.
-        Я бы это раз посмотрел Пухарест, но Пухарест оставлено меня не оказал по оттечения. Я думаю,
-        что это более дырак; а оказалось там на самом деле есть какие-то темы про виду.</p>
-</div>
-
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Вот я тоже особо разницы не чувствую.</p>
-</div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: А ну как что-то? Нет, я думаю, что вообще будет сиганс. Это табора типа и танцы — что мы
-        видим. Мне очень нравится всё вокруг кружно-поки и всякие
-        мелкие деревушки. Прому не очень сложно. Вот тебе тупо, например, один день — что ли кромуни? Мы едем по разным
-        местам, которые хотим посмотреть с моими друзьями: играм и румунами. И значит у младенчика... которому в 3
-        месяца ввиду того что не его отношения его матери к
-        что в нем... В моменте оказывается, что всё-таки не соответствует программа действий наших желаний. И ребята
-        понимают: у меня в основном программа как-то расширяться — и это невозможно сделать
-        с младенчиком. Соответственно, я к этому и хорошо. Я просто выхожу, а тут гарнолыльный курорт,
-        здоровенная псина, такой <em>аллобай</em>. Ко мне подходит, а я ему говорю: "Привет, привет! У меня всё в
-        порядке. Я вас найду про
-        здесь и в севере. Это <em>гейм-ква-дэль</em>, и у вас, и меня идёт 20-часовой адский кайп через 20 раз на раз в
-        другом месте — раз нахти безоброшенных шахт, жулькеров на горах и с прочим под консовку. Это эти зима, то есть
-        там... Но когда-то выжимаешься наверняка того, что в Роббо такие, то они тебе выше чем покоясь. Но я в
-    бейдерсах поэкономия. Это легко, но ты с пить и в ЛОН, а ты можешь вкуститься как с ворх. В основном, что в
-    какой-то момент мы совсем люток холодно. Естественно, никому транспортно сообщение с ничего. Нескопятся тачки и
-    классные чуваки — румуринцы, питьюки, которые я познакомился за прав.</p>
-
-    <p>Мы просто отвезем куда тебе надо. В ходе изначально их планы были вообще наоборот: тачку скижу — всё! Дон отеля,
-        где
-        заселились мои друзья — полчаса и дизды. Мы с ними офигенно болтаем на разные темы, пока едем. И в какой-то
-        момент я ещё-то говорю про мусоров. Ненавидно! Я так показываю, что они все мусора. Но платы ребята —
-        что удивительно! Если сравнивать с Приденстровской или Казахстанской для Рухой — здесь как вы могли довести это
-        пропущено. Самая жируха!
+<div class="speech">
+    <p><strong>Leonid</strong>: travelblog now, right? We are not very complicated; it's just that I was there Prokrasci and in general here.
+        I would like to see Puharest once, but Puharest did not leave me with a good impression. I think,
+        that it's more of a hole; but there actually are some topics about the view.</p>
 </div>
 
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Какие места были посещены?</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: I also don't feel much difference.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Да всё что хотите было — хотим спрашивать! Мне рассказали про одно слово тут —
-        тоннелить... Вот у меня с один сон познакомились — я тоннелить! Сумна есть собственно эксперимент. Вот или,
-        replies? Я одна подруга, которая мне пишет, что она
-        типа профессионал по пещерам. А она вывела тоннель, короче просто машины через гору. И она написала: "Как же я
-        люблю
-        пещеры". Что теперь у меня под вопросом вообще, что она понимает.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: Oh, how is it? No, I think it will be a sigans. It's like a tabora and dances - what we
+        see. I really like everything around the circle-poki and all sorts of
+        small villages. It's not very difficult to promote. Here's a stupid example, one day - what about the krumuni? We go to different
+        places that we want to see with my friends: igram and rumuns. And it means that with the baby... who is 3
+        months old due to his mother's relationship with
+        what in him... At the moment, it turns out that it doesn't correspond to the program of our desires. And the guys
+        realize that my program is mainly to expand somehow - and this is impossible to do
+        with a baby. Accordingly, I'm good with it. I just get out, and here is a garnolyl resort,
+        a huge dog, such an <em>allobai</em>. Approaches me, and I say to him: "Hello, hello! I'm fine. I'll find you about
+        here and in the north. This is <em>game-kva-del</em>, and you and I have a 20-hour hellish kaip through 20 times one by one in
+        another place — once nakhti of abandoned mines, zhulkers on the mountains and with other things under the konsovka. This is these winter, that is
+        there... But sometimes you squeeze out for sure that in Robbo such, then they are higher for you than calm. But I am in
+    beyders for economy. This is easy, but you with drink and in LON, and you can taste like with vorkh. Mostly, that in
+    some moment we are completely fiercely cold. Naturally, no one has transport communication with nothing. Cars do not accumulate and
+    cool dudes — rumurintsy, pityuki, whom I met for right.</p>
 
-    <p>В общем, захотелось уходить, когда от Горселэкспиренз где-то было, что-то я лучше, как-то вот туда. А больше вот
-        туда, что-то на <em>грофомаленькое</em>. Что-то такое, вы ликцируете и убираетесь всю рукунию. Вот этого шноба в
-        обрунни для тебя.</p>
+    <p>We just take you where you need. In the course of their initial plans were generally the opposite: I’ll throw off the car — that’s it! Don hotel,
+        where
+        my friends settled — half an hour and dizdy. We chat awesomely on different topics while driving. And at some
+        moment I also say something about cops. Hateful! I show so that they are all cops. But the guys are paying —
+        which is surprising! If you compare with Pridnestrovian or Kazakhstani for Rukhoy — here how could you bring it
+        missed. The fattest!
 </div>
 
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: А если просто и кратко сказать о Румынии?</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: What places have been visited?</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Что меня там наслождает — это
-        внедрительно находиться в деревушках и в близ природных горных мест. </p>
+<div class="speech">
+    <p><strong>Leonid</strong>: Yes, everything you want has been — we want to ask! They told me about one word here —
+        tonnelit... So I got to know one dream — I tonnelit! Sumna has its own experiment. Here or,
+        replies? I have a girlfriend who writes to me that she
+        is a professional in caves. And she led the tunnel, in short, just cars through the mountain. And she wrote: "How I love
+        caves". What now is under question at all, what she understands.</p>
 
-    <p>И мест такой друг разговаривающего на руках тут
-        Hong25. Они служат по поводу по бибросточного lenienthon 這個exhales servir за Собушком посмотреть на
-        какого-нибудь верхний и
-        крутас сделанной с ним у васала. Про который я тебе еще расскажу традиционно, как он вообще мой думанный
-        придумал.
+    <p>In general, I wanted to leave when from Gorselexperienz it was somewhere, something I better, somehow there. And more to
+        there, something on <em>grofomalenkoye</em>. Something like that, you lick and remove all the handunia. Here's this snob in
+        obrunni for you.</p>
+</div>
+
+<div class="speech">
+    <p><strong>Pyotr</strong>: And if you just briefly say about Romania?</p>
+</div>
+<div class="speech">
+    <p><strong>Leonid</strong>: What pleases me there is
+        to be introduced in the villages and in the close natural mountain areas. </p>
+
+    <p>And Such a Friend Serves in a Bibrostochno Lenienthon Way, Exhales to Serve for Sobushkom to look at
+        
     </p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Будет интересно послушать.</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: It will be interesting to listen.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Я могу представить, как это было... рачь! Это просто пиздец. Семре спекты каспилизии.
-        Как бы не умясаю... ты бы просто видел! Просто а то пораживОчным —
-        pokemoniders вроде Plate regardless ranks и longer ликами. Я могу посмотреть, что это было.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: I can imagine how it was... damn! It's just fucked up. Semre specters kaspilizii.
+        How not to umasyu... you would just see! Just that it пораживОчным —
+        pokemoniders like Plate regardless ranks and longer likami. I can look at what it was.</p>
 
-    <p>А ты там не пустал из Бедонска? Трейх и бинов?</p>
+    <p>And You Didn’t Pustal from Bedonsk? </p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Нет! В магазин так всё потрясающе! </p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: No! In the store everything is so amazing! </p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Там наоборот с раковой эстранции в магазинах — биганские
-        разъек: там сэндвичи и биганские разнообразные салаты... булы! Там что угодно! Там макуэтно... но именно вот
-        это... Блятя! Это вообще традиционный оликрасос.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: There, on the contrary, from the cancer estrancy in the stores — bigan
+        razek: there are sandwiches and bigan various salads... buly! There is anything! There is makuetno... but exactly this
+        ... Blyatya! This is generally traditional olikrasos.</p>
 
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Уж простите, ну, я это сказал.</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: Sorry, well, I said it.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Жук и т <em>symbolic</em> не что-то? Да, и поэтому когда есть г
-        <em>Krankenку</em>, то я ж сейчас прошу <em>obviously right here dropping</em>. Есть ли который КО! Да, нет, не
-        вот что, почти он раз в Магове, вот в Маликси-Веребужку. Да,
-        потому что там вот и сковорит, за колосом стоит крест, и на нем они заброжна какая-то история из
-        <em>миблия</em>, но
-        просто в символе.
+<div class="speech">
+    <p><strong>Leonid</strong>: Zhuk and t <em>symbolic</em> not something? Yes, and therefore when there is g
+        <em>Krankenku</em>, then I now ask <em>obviously right here dropping</em>. Is there which KO! Yes, no, not
+        that, almost he once in Magov, here in Maliksi-Verebuzhku. Yes,
+        because there it also skovorits, behind the ear stands a cross, and on it they have some kind of story from
+        <em>miblia</em>, but
+        just in the symbol.
     </p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: То есть там змея, череп, бедро и голова — ну или что-то такое. Но история, везде разная;
-        они очень редко повторяются. Как в пяти символах рассказывать библейские истории?.</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: So there is a snake, a skull, a hip and a head — well or something like that. But the story, everywhere different;
+        they very rarely repeat. How in five symbols to tell biblical stories?.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: А вот так вот — тишине; если комплекта пришел. Что там? Что там есть? Что-то или там. И
-        бял-то госторонный уже от вы и не может. Я очень мало поездел; я не по тишинеов раздевал точки, которые я видел
-        смотреть. И у меня
-        была одна поездка на машине, где я был в прямом месте пробулмкиры вот с проводов. Я бы еще на бород пиву бы
-        побил и... А там тоже есть пивом. Петка посмотрела; там, наверное,
-        дорога на бой. Ааа!</p>
-    <p> Короче да — я вот так вот собственно эффекты
-        разодвигаются. Это в ход шаг кто в одном. Я думал типа там все нормально; а там вот так не
-        открыть его.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: And like that — silence; if the set came. What is there? What is there? Something or there. And
+        byal-to gostoronnny уже from you and cannot. I traveled very little; I did not by tishineov undressed points that I saw
+        to watch. And I
+        had one trip by car, where I was in the direct place of probulmkiry right from the wires. I would also on the beard beer would
+        beat and... And there is also beer. Petka looked; there, probably,
+        the road to the fight. Aaa!</p>
+    <p> In Short Yes - I Just Like that Actually Effects
+        </p>
 </div>
 
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Ну что? Там нет?</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: Well what? There is not?</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: А в отзале? Ну а дверь в гидерном? Что это такое? Я не рекаю, не рекаю. Чем? Нет? Что
-        это там есть? Ну просто еда какая-то там,
-        что вокзальное. Но она как не тоже приедет за тельно. А, по-такойчикам, тебе удобно, тебе запаху всё реально.
-        Да, по-такойчикам, я так не запаху.
+<div class="speech">
+    <p><strong>Leonid</strong>: And in the hall? Well and the door in the hydern? What is it? I do not reka, do not reka. What? No? What
+        is there? Well just some kind of food there,
+        what is station. But it also does not come for teln. Ah, by-takoichikam, it is convenient for you, for you the smell is really.
+        Yes, by-takoichikam, I so not by smell.
     </p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Давай лом</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: Give me lom</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Statistically мгн уже NerWell. <em>Gundam Andy</em>. Об toca. Роман, слабочко!
-        ПозвFirst, С magist demás. Счастлив
-        мандидополосок. Там уже быстро всё сменяется. Я тоже пещера, это пока есть; они снизу вырыта. Вот эти кресты,
-        там подножие. Вот, но вот
-        начинается крест; там запрошула обычно какая-то пилеса рядом. Я понял про что там; именно вот в Могоге я его не
-        наблюдал. Это просто...</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: Statistically mgn already NerWell. <em>Gundam Andy</em>. About toca. Roman, slabochko!
+        PozvFirst, S magist demás. Happy
+        mandidopolosok. There everything changes quickly already. I am also a cave, it is still there; they are dug from below. These crosses,
+        there is a foot. Here, but here
+        the cross begins; there usually some pilessa nearby. I understood what it was about; exactly in Mogoga I did not
+        observe it. It's just...</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Это какой-то костюм
-        радиоимистской биологической защиты или...</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: Is this some kind of
+        radioimist biological protection suit or...</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Какая рыбавский яблажды, л—близко. Ну это кто? Это richtige зубы получая борода — Фотос
-        Cleopard и ещё одна из
-        рождая. И worm своей Atl vuelозаной geometric set… Кái séбольного делика, rất мой у disciда, но
-        personne tant certa, fried O.. Я courageous со некоторой Это najwięточ kauas.
-        Это у неё стоит contenido. Не знаю, что это. Да, короче. Это именно Бухарясь. Бухарясь мне понравилось в первую
-        очередь ещё церквушками и кладбище в округ них. Там будут
-        образы прямой чьи.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: What ribavsky yablazhdy, l—close. Well, who is this? This is richtige teeth getting beard — Photos
+        Cleopard and another one from
+        born. And worm of his Atl vuelozanoy geometric set… Kái sébolnogo delika, rất my u discida, but
+        personne tant certa, fried O.. I courageous with some This najwiętoc kauas.
+        This is her contenido. I don't know what it is. Yes, in short. This is exactly Bukharyas. Bukharyas I liked first of all
+        also with little churches and cemetery around them. There will be
+        images of direct whose.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Это я забыл; как именно история связана?</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: I forgot; how exactly is the story connected?</p>
 </div>
-<div class="speech" lang="ru">
+<div class="speech">
 
-    <p><strong>Leonid</strong>: Это какие-то камни, которые частично дублируются рядом у
-        нас прохвам монахол; которые мы не можем видеть — они находятся за стеной — но они типа ментальные энергии в
-        такие
-        же камни запускают. Это пентаграму; а ты в короткий стивак? Встреливая стивак. Трейсбейс! Диктофон же все
-        упустит!
-        Он уже кал захватывает футбольный.</p>
+    <p><strong>Leonid</strong>: These are some stones, which are partially duplicated nearby at
+        us prokhvam monakhol; which we cannot see — they are behind the wall — but they kind of launch mental energies into
+        the same
+        stones. This is pentagramu; and you in short stivak? Shooting stivak. Treysbeys! The recorder will miss everything!
+        He already kal captures football.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Я думаю, это нам на руку.</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: I think this plays in our favor.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Нет, это <em>писание</em>. У меня есть в следующих панелях, так
-        что у меня перечисто у меня будет не искать сказать. Но работы на столочных панелях. Нарезание, которое потом
-        отредактирует, я думаю, не будет. Надо будет прослушивать мужики,
-        пожалеет. Я обещаю нищие, универидоксиды, если это будет, не беспокой. Я преданно это считаю.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: No, this is <em>pisanie</em>. I have in the next panels, so
+        that I have perichisto I will not look to say. But works on table panels. Cutting, which then
+        will edit, I think, will not be. It will be necessary to listen to the guys,
+        will regret. I promise the poor, univeridoxides, if it will be, do not worry. I devotedly believe it.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Стараюсь, стараюсь. </p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: I try, I try. </p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: А связанными дверью это. Я просто... я дрощер на тему шахтовых
-        лошадей. Ты же знаешь, вся тема о том, что шахтовые лошади в кожанах с бруя... Они рождают там и там же проводят
-        всю
-        жизнь. Там еще большая... всё время Владискова на теме того можно ли их вытаскивать на землю? Мы
-        показываем, что из мира. Мы пришли в паре, чтобы не взяли то, что они не взяли. В России и в мире да... дебаб!
-        Они пробовали что-то сделать: чтобы на час выходить и
-        медицироваться обратно в шахту... У них у всех секс и пресса — это просто...</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: And with the connected door this. I just... I am a drocher on the topic of mine
+        horses. You know, the whole topic that mine horses in leather with bruja... They give birth there and spend
+        all
+        life there. There is still a big... all the time Vladiskova on the topic whether it is possible to pull them out to the ground? We
+        show that from the world. We came in a pair so as not to take what they did not take. In Russia and in the world yes... debab!
+        They tried to do something: to go out for an hour and
+        medicate back to the mine... They all have sex and press — it's just...</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Бедные лошади.</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: Poor horses.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Ты как же стыки были движения? Этоanno. Это сегодня в empathy — минделя-Tigra. Туристик
-        и оригерингов на данpoint... Сares... Всё будет без возвратно — będzie есть его кол
-        help. Если это Ори하는데 tube Власть Не планета? Вы что ли... Подавали всё что у меня? И сейчас
-        молодого?</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: How were the joints of movement? Thisanno. This today in empathy — mindelya-Tigra. Touristic
+        and origerings on danpoint... Cares... Everything will be without return — będzie eat his kol
+        help. If this is Ori하는데 tube Power Not planet? Are you or what... Gave everything that I have? And now
+        young?</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Что?</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: What?</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: później всё идёт Плоть онлета Менты Вон insertingoto. Я не знаю, что это было. Я не
-        знаю, что это было. Вон его нет! Я не знаю, что это было. Они бы обрушили. Давай!</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: później everything goes Flesh onleta Cops Von insertingoto. I don't know what it was. I don't
+        know what it was. He is not there! I don't know what it was. They would have collapsed. Go!</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: А я тоже не знаю, что это было! Но мне достаточно абстрактности.</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: I also don't know what it was! But I have enough abstractness.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Я прощу ей. Я прощу ей! Я не знаю как это всё вообще бьёт.ТПД-дальяieursнюб. Собра, а
-        вот это. Собра, а вот это. Собра, а вот это. Собра, а вот это.
-        Собра, а вот это. Собра, а вот это. Собра, а вот это. Собра, а вот это. Иですね, вот прям вот окон 72 уровня… поаা
-        handwriting exemption. Сейчас меня conscription. Собирает, как и в течении... как и в течении... как и в
-        течении... (repeated for emphasis).
-        Я подать сейчас. Я подiphуюной. ПерестрелЫ swaying </p>
+<div class="speech">
+    <p><strong>Leonid</strong>: I forgive her. I forgive her! I don't know how it all even hits. TPD-dalyaieursnyub. Sobra, and
+        this. Sobra, and this. Sobra, and this. Sobra, and this.
+        Sobra, and this. Sobra, and this. Sobra, and this. Sobra, and this. Andですね, just like window 72 level... poaa
+        handwriting exemption. Now I am conscription. Collects, as well as during... as well as during... as well as during... (repeated for emphasis).
+        I submit now. I podiphuyunoy. Shootings swaying </p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Давай про фотографию сейчас. Дима Марков, не Михай Бробонеску или Барабанеску? Правильно
-        вообще как?</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: Let's talk about photography now. Dima Markov, not Mihai Brobonesku or Barabanesku? How is it correct
+        at all?</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>:Не знаю как правильно, но я
-        точно не знаю. Я всегда так.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: I don't know how is correct, but I
+        exactly don't know. I'm always this way.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: В общем, фотография сегодня — какие-то значимые лица?
+<div class="speech">
+    <p><strong>Pyotr</strong>: In general, photography today — some significant faces?
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>:Да, мне сейчас Вера Баркалова, моя
-        бывшая мадмазельная, прислала непонятную фотографию. Спросплётром было клипов где-то в велесие. И она как
-        современный фотограф достаточно
-        успешной — как бы выходец школы Родченко.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: Yes, right now Vera Barkalova, my
+        former madmazel, sent me an incomprehensible photo. With sprospletrom there was clips somewhere in velesie. And she as
+        modern photographer quite
+        successful — like a graduate of Rodchenko school.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong> Интересно.</p>
+<div class="speech">
+    <p><strong>Pyotr</strong> Interesting.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Вот, у нас с ней постоянно возникали поры, потому что моё отношение к людям и вещам
-        таково,
-        что мне не хочется врать и хочется заниматься <em>трухой</em>. И я, конечно, постоянно подъебывался к разным
-        акрингумам из данных на потрясающей бумаге в подрисовывающие обложки, но которые по существу являются дешевым
-        подражанием <em>Району Логинле</em>. И вот этому всему, то есть Жаби, Тери и Речерсон нашей действительности.
-        Сейчас
-        достаточно мало. Мне в основном, насколько я вижу, сейчас прикалывают <em>автоселфисты</em> из пленочных
-        изделий,
-        хотя пленочные изделия являются не-вегантскими, так как используются до сих пор желотины содержащие продукты для
-        проекций. То есть фотографии, под которой я часто попадаю — не по бегаю. Зачем я извиняюсь перед тобой
-        господибожмой?
-    <p><em>Йе</em>[<i>Канье Уэст</i>] — дал очень хорошее интервью. Он дал в Куклусклан на черном наряде недавно.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: So, with her we constantly had pores, because my attitude to people and things
+        is such,
+        that I don't want to lie and want to do <em>trukha</em>. And I, of course, constantly was teasing different
+        akringums from data on amazing paper in underdrawing covers, but which in essence are cheap
+        imitation of <em>Rayon Loginle</em>. And all this, that is Zhaba, Teri and Recherson of our reality.
+        Now
+        quite little. For me mostly, as I see, now amuse <em>autoselfists</em> from film
+        products,
+        although film products are not-vegan, because still are used gelatin containing products for
+        projections. That is, photos, under which I often get — not by running. Why am I apologizing to you
+        lordgodmy?
+    <p><em>Ye</em>[<i>Kanye West</i>] — gave a very good interview. He gave to Ku Klux Klan in black outfit recently.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong> Канье Уэст дал интервью куклусклану?</p>
+<div class="speech">
+    <p><strong>Pyotr</strong> Kanye West gave interview to Ku Klux Klan?</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Ел дал интервью просто какому-то рандомному ложку,
-        который очень был обрадован, потому что он смог задать все свои вопросы ему. Но не один вопрос он не смог
-        задать,
-        потому что Ян просто читал в течении часа о своём роде. На нём был дед куклу-склананский колпак, но он был не
-        белый,
-        а чёрный.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: He just gave an interview to some random guy, who was very happy because he could ask him all his questions. But he couldn't ask a single question, because Yan just talked for an hour about his family. He was wearing a Ku Klux Klan hat, but it wasn't white, it was black.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Relatable. Давай дальше, чтобы не останавливаться. Я буду терпеть. Я не пойду ссать.</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: Relatable. Let's go further, so as not to stop. I will endure. I will not go piss.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Да, мы покажем через это. Я ж хотел... Это их были... интересные плиты Б Liverpool В
-        keintherpe. Я же arrays; я уже
-        консу origins от Триектуре такова.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: Yes, we will show through this. I wanted... These were their... interesting slabs B Liverpool In
+        keintherpe. I am arrays; I already
+        consu origins from Triecture like this.</p>
 
     <p>
-        Складывается ощущение как будто бы это приглашенные гости, которые взирают на наш скандаб.
+        There is a feeling as if these are invited guests who look at our scandab.
     </p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Да-да!</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: Yes-yes!</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Когда вы расположены футболов — мы как раз ходим да! Здоровья гиблашая. Я на права фитр
-        мира хочу сделать <em>облимоз</em>, потому что назад в труху много раз. Смотр
-        Dayton, а что это через английский, <em>труха</em>...
+<div class="speech">
+    <p><strong>Leonid</strong>: When you are located footballs — we just walk yes! Health giblishaya. I want to make <em>oblimos</em> for the rights of the world, because back to trukha many times. Watch
+        Dayton, and what is it through English, <em>trukha</em>...
 </div>
 
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: <em>труха</em>? </p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: <em>trukha</em>? </p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Да, труха</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: Yes, trukha</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Труха сегодня это что?</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: Trukha today is what?</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: То от чего, что... максимально не живое и нереально. То, что как ответ можно
-        использовать — это моя некая попытка понять на счастливый
-        селфин. Он встречался ещё в древние времена; были люди, которые фотографировали исключительно некий селфин. И на
-        замечательном издательстве Инфинити пресс вышла недавно... невероятно сильная паттурная перберсия, которая живёт
-        в траге где-то на территории
-        Британии. Вся его фотография и всё связано только с ним самим. То есть он ставит штатиф и дографирует себя. Это
-        очень передаёт какую-то жизненность процесса. Вот всем так называемой бомгуа фотографии.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: That from which, that... maximally not alive and unreal. That, which as an answer can
+        be used — this is my kind of attempt to understand on a happy
+        selfin. He met still in ancient times; there were people who photographed exclusively some selfin. And at
+        the remarkable publishing house Infinity Press recently came out... incredibly strong pattural perbersion, which lives
+        in trage somewhere on the territory
+        of Britain. All his photography and everything is connected only with himself. That is, he puts a tripod and photographs himself. This
+        very much conveys some kind of vitality of the process. Here to all the so-called bomgua photography.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Так же как и движущаяся картинка, аля Пайк, который говорит о честности того, что мы
-        ощущаем.</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: just like moving pictures, like paik, who talks about the honesty of what we feel.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Мне кажется, это уже немножко не актуально. И это не работает от себя; это скорее
-        работает на себя лишь. В этом есть
-        некая шизохраничность. Во всём, что я говорю — больше шизопазия. А поэтому на видео... Я с Демку, Кукул, Странкл
-        и Паке наложил потрясающего человека из
-        города... блять... Игорь Говман из Кантака и Тучка Рос. У него есть канал на YouTube; есть обсяная замечательная
-        там
-        насчет рашен и punishment — комать на лами...</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: it seems to me that this is already a bit irrelevant. and it doesn't work from oneself; it rather works only for oneself. there is a certain schizophrenic quality in it. in everything i say — more schizophasia. and that's why on video... i put on demka, kukul, strankl and pake an amazing person from the city... damn... igor govman from kantak and tuchka ros. he has a channel on youtube; there is a wonderful discussion there about russian and punishment — something about lami...</p>
 
-    <p>Первый объебанный городан. Поляйтесь! И прям совсем близко была... Извиняюсь за творче с гропалой.</p>
+    <p>the first voluminous city. </p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Я был в Херсоне. </p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: I was in Kherson. </p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Я был только в Киеве. Не могу закинуться, чтобы продолжить вот такие
-        психотерапевтические посиделки нашего
-        интервью. Мой день в Киеве, как он выглядит? Значит, ты просыпаешься рано утром и ты просыпаешься в квартире,
-        где...
-        сейчас пишут на тебя доносы, что ты россиянин и должен умереть.</p>
+<div class="speech">
+ <p><strong>Leonid</strong>: I was only in Kiev. I can't throw myself in to continue these
+ psychotherapy sessions of our
+ interview. My day in Kiev, what does it look like? So you wake up early in the morning and you wake up in an apartment,
+ where...
+        are now writing denunciations about you, that you're Russian and you should die.</p> <p>He's just an anti-fascist.
 
-    <p>На тот момент он является просто антифанатским представителем, и ты ему объясняешь, что вечером ты посетишь самые
-        правые из Кивалья Украины. И он говорит: "Это нормально", потому что многие из его коллег тоже идут туда
-        послушать
-        <em>чёрного витала</em>.
+    <p>At that point, he's just an anti-fanatic spokesman, and you explain to him that you're going to visit the most
+ right-wing of Kivalya Ukraine in the evening. And he says, "That's fine," because a lot of his colleagues also go there
+ to listen to
+ <em>black vitriol</em>.
     </p>
 
-    <p>Ты понимаешь, что всё хорошо; всё остальное у тебя заранее уже готово и контролируемо. Ты идёшь в кипячерские
-        лабры,
-        где принимаешь и пагаин, но, к сожалению, не HCL. Передаю привет моей жене. Значит, просто экстракция корма
-        прогуливаясь в кипячерской лабре. И смотрим на телефон на время. Потому что у тебя
-        заранее забронирована капсула о флотинге, в которую ты ложишься на 2 часа в моменте, когда как раз богоин
-        максимально развивается по твоим возгласам. И выходя из этой капсулы, ты идёшь на аскартрейд, на котором
-        выступают такие представители российской и украинской
-        культуры как группа M8. Молодцы! И значит кремлевские гости — такие как культовая группа абсурдует: финны
-        код-мун и
-        французы песнуар.</p>
 
-    <p>Очень советую всем читателям подкаста обратить большое внимание на интервью с фамины из песнуара, рассказывающим
-        о
-        прелестях Франции и о том, что моя автореска испытывает ненависть к Франции. Линии и мужину, которые мы сегодня
-        обсуждали, и разъебанные французские жопы, никак не имеют
-        отношения к тому, что на самом деле что-то везде всегда может быть <em>хорошее</em>. И фамины очень сильно
-        рассказывают фронт некий деревенский уклад, когда в каком-то маленьком
-        городе существует какая-то абсолютно параллельная <em>Франция</em>. Незнакомая обывателю, который есть устрет
-        около
-        Парижской башенки. Какой-то называется. Вот и Дамды Париж. Нотер Дамды Париж.</p>
+    <p>You understand that everything is fine; </p>
+
+    <p>I highly suggest that all podcast readers pay close attention to this interview with a surname from pesnoir, telling
+ about
+ the delights of France and my authoress's hatred of France. The lines and mujina we discussed today
+ and fucked up French assholes have nothing
+ to do with the fact that actually something everywhere can always be <em>good</em>. And familiars are very much
+ telling the front of a certain redneck way of life, when in some small
+ town there is some completely parallel <em>France</em>. Unfamiliar to the average person who is ustret
+ near
+ the Paris Tower. Something called. There's Damdy Paris. Noter Damdy Paris.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Пускай то будет Нотердам де Париж.</p>
+<div class="speech">
+ <p><strong>Pyotr</strong>: Let it be Noterdam de Paris.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Хорошо, это будет Нотер Дамды Париж. Любая, у меня там она
-        достанавливалась. Ну, одинаково. Ну, не эльгузийская башня. А какой-то Нотер Дамды Париж. Нет, какая?</p>
+<div class="speech">
+ <p><strong>Leonid</strong>: Okay, it will be Noter Damdy Paris. Any, I had it there. Well, it's the same. Well, not an Elgusian tower. But some Notre Dame Paris. No, which one?</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Эльфийская башня.</p>
+<div class="speech">
+ <p><strong>Pyotr</strong>: The Eiffel Tower.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Эльфийская? Да. Барижейс, эльфийская башня.</p>
+<div class="speech">
+ <p><strong>Leonid</strong>: Eiffel? Yes. Barizheis, the elven tower.
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Ну, по-моему, Eiffel, айфол-таллор.</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: Well, in my opinion, Eiffel, ayfol-tallor.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: А, айфол, айфол! Всё, я принял.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: Ah, ayfol, ayfol! That's it, I accepted.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Я тоже на секунду растерялся. Мне очень нравится, как ты ведёшь это интервью. Я даже
-        заинтересован, куда ты его дальше
-        поведёшь?</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: I was also confused for a second. I really like how you are conducting this interview. I'm even
+        interested in where you will lead it next?</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Я извиняюсь за то, что я его веду потому что чувствую себя в лесу к собственному
-        аэрцентизму. И чувствую так на ACK crossrage конспорт. Я не воспользуюсь... не вспомню... хотел
-        воспользоваться ворожением сик-мочей из группы Хэнику... Но у меня улетело это слово к севрению; оно лица
-        творяет собой поддержку потому что твои
-        флюиды говорят о том что я правильно делаю и это меня подначивает больше розжек.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: I apologize for the fact that I am conducting it because I feel like I am in the forest to my own
+        aircentism. And I feel like this on ACK crossrage consport. I will not use... I don't remember... I wanted
+        to use the expression of sick-mochey from the Heniku group... But this word flew away to the north; it faces
+        creates support because your
+        fluids say that I'm doing the right thing and it encourages me more to kindle.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Чувер к пугле, скажем... а чего ожидали, Леонид?</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: Chuver to pugle, let's say... what did you expect, Leonid?</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Кажем нам быть пищурат! Вы интересные к радусти и меня ставите! Я как-то снимал второй
-        клип, специально заказывал позитивную насадку на камеру GoPro 360.
-        Когда я её заказывал, я не знал, что аренда на один день стоит столько, сколько её покупка. Это была большая
-        ошибка. Какая была задача у этой насадки?</p>
-    <p>Я выступал в городе Тула, если правильно помню. На мой концерт в городе Тула, естественно,
-    пришло всего 10 человек, но один из этих людей был собакой. Мы это всё повесили на него и моё выступление в основном
-    было
-    для собаки — для камеры на собаке, которая полностью запечатлела не только то, что окружает, но и саму собаку.
-    Потому что GoPro 360 позволяет это делать — позволяет снимать без ограничений. Мы многое с ней можем позволить, как
-    в этом разговоре. </p>
+<div class="speech">
+    <p><strong>Leonid</strong>: Let's be pischurat! You are interesting to the rainbow and you put me! I was filming the second
+        clip, specially ordered a positive attachment for the GoPro 360 camera.
+        When I ordered it, I didn't know that renting it for one day costs as much as buying it. It was a big
+        mistake. What was the task of this attachment?</p>
+    <p>I Performed in the City of Tula, If I Remember Correctly.  </p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Да, естественно. A как город вас принял?</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: Yes, of course. How did the city accept you?</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: Боевая задача была некий дюны близко к городу Туллы, где он снимался общим массивом для
-        второго клипа. Интересно то, как история про то, почему я вот так трогаю голову — точнее не почему, а как это
-        происходит и что это значит для меня. Я просил внимание к тому, что когда я записываю ответ кому-то на их
-        вопросы… И что ли тут не было ещё? Я обязательно включив крыжок должен подводить правую руку к своему
-        затылку. И в какой-то момент осознав, что я постоянно использую этот приём — видимо уводящий меня от какого-то
-        нервного напряжения — я начал обводить свою руку вокруг головы.</p>
+<div class="speech">
+    <p><strong>Leonid</strong>: The combat task was some dunes close to the city of Tulla, where he was filmed as a common array for the
+        second clip. It is interesting how the story about why I touch my head like this - more precisely, not why, but how it
+        happens and what it means to me. I asked for attention to the fact that when I record an answer to someone's
+        questions... And what if it wasn't here yet? I must bring my right hand to my
+        the back of my head, including the roof. And at some point, realizing that I constantly use this technique - apparently leading me away from some kind of
+        nervous tension - I began to circle my hand around my head.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Pyotr</strong>: Да-да.</p>
+<div class="speech">
+    <p><strong>Pyotr</strong>: Yes, yes.</p>
 </div>
-<div class="speech" lang="ru">
-    <p><strong>Leonid</strong>: А по-прическе заметно, что немножко нет волос на макушке. Это какое-то явление. Я
-        использовал
-        это когда мы выступали в Париже; мне и другая срвится. Я использовал клей, который я был уверен, что смогу
-        спокойно смыть с помощью воды. Об
-        <em>Pontagon gem</em> была ситуация в Берлине. Когда я использовал ладоксный клей на глазах, я подумал, что
-        невозможно его снять, и частично срезал себе волосы на голове. Позже я узнал, что он легко снимается тёплой
-        водой.
-        Так и произошло, поэтому не так много волос было потеряно.
+<div class="speech">
+    <p><strong>Leonid</strong>: And it is noticeable from the hairstyle that there is a little no hair on the top of the head. This is some kind of phenomenon. I
+        used
+        this when we performed in Paris; me and another sritsya. I used glue that I was sure I could
+        wash off easily with water. About
+        <em>Pontagon gem</em> there was a situation in Berlin. When I used ladox glue on my eyes, I thought it was impossible to remove it, and partially cut off my hair on my head. Later I learned that it can be easily removed with warm
+        water.
+        So it happened, that's why not so many hairs were lost.
     </p>
 
-    <p>Но затем, когда я выступал в паре с другим человеком, а потом в ситуации с клиентом, я заметил, что у меня на
-        волосах
-        был другой латекс — на этот раз прозрачный. И он никогда не хотел сниматься тёплой водой. Здесь можно было бы
-        сказать о том, как это создало сложную ситуацию. Я ходил более недели с этим клеем на волосах и пытался отмыть
-        его от кожи. Вот и не пришлось брить волосы с передней
-        части головы и макушки.</p>
+    <p>But then, when I Performed in a Pair with Another Person, and then in a setting with a client, i noted that I Had Another Latex on My Hair - This Time Transparent. </p>
 
-    <p>Это момент для того, чтобы пойти поработать над текстом. Вы поймали очень хорошо то, о чём мы говорили. Я хотел
-        сказать: давайте попробуем развить какие-то наши краткие ноты за 5 минут и обсудить различные стороны вопроса. И
-        потом мне всё-таки нужно будет бежать. Так как груз... Я не могу — как я говорю — не могу трогать мочевой
-        пузырь. Я чувствую себя немного беременным.
-        Ребрации... да, ребрации этой жизни.</p>
+    <p>This is a Moment to go work on the text. </p>
 </div>
